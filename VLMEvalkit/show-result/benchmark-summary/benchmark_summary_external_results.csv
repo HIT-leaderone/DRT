@@ -1,0 +1,6 @@
+model,prompt,benchmark,score,tokens,hit,total,score_source,token_source,note
+Qwen3-VL-8B-Thinking,Qwen3-VL-Thinking-vLLM0191-TF4571,MathVista,79.90,1848.4,799,1000,gpt-4o-reeval-merged / gpt-4.1 both reported 79.90,paper reproduction artifact,VLLM0.19.1 + TF4.57.1 Qwen3-VL-8B-Thinking
+Qwen3-VL-8B-Thinking,Qwen3-VL-Thinking-vLLM0191-TF4571,MathVerse,74.19,2665.7,2923,3940,external Codex log for VLLM0.19.1 + TF4.57.1,paper reproduction artifact,VLLM0.19.1 + TF4.57.1 Qwen3-VL-8B-Thinking
+Qwen3-VL-8B-Thinking,Qwen3-VL-Thinking-vLLM0191-TF4571,LogicVista,68.23,4528.6,305,447,external Codex log for VLLM0.19.1 + TF4.57.1,paper reproduction artifact,VLLM0.19.1 + TF4.57.1 Qwen3-VL-8B-Thinking
+Qwen3-VL-8B-Thinking,Qwen3-VL-Thinking-vLLM0191-TF4571,GSM8K,96.13,1225.1,1268,1319,external Codex log for VLLM0.19.1 + TF4.57.1,paper reproduction artifact,VLLM0.19.1 + TF4.57.1 Qwen3-VL-8B-Thinking
+Qwen3-VL-8B-Thinking,Qwen3-VL-Thinking-vLLM0191-TF4571,VideoHolmes,42.51,1868.3,781,1837,paper reproduction artifact,paper reproduction artifact,VLLM0.19.1 + TF4.57.1 Qwen3-VL-8B-Thinking

@@ -1,0 +1,5 @@
+defaults:
+  - legacy_data
+  - _self_
+
+image_patch_size: 16

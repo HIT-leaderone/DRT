@@ -1,0 +1,1035 @@
+id,l1,l2,useful_ratio,waste_cat,waste_root,pred_len
+0,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1725
+1,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1414
+2,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2885
+3,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Hallucination / Fabrication,Fabricated Causal Stories,2245
+4,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,535
+5,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1700
+6,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1486
+7,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,404
+8,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2364
+9,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1481
+10,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2647
+11,Correct,N/A,0.3,Over-Verbose / Padding,Excessive Narrative Detail,2031
+12,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,921
+13,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1338
+14,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1167
+15,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,611
+16,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Over-Verbose / Padding,Excessive Narrative Detail,3461
+17,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Over-Verbose / Padding,Excessive Narrative Detail,3266
+18,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,426
+19,Correct,N/A,0.5,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,441
+20,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2388
+21,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2306
+22,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,2508
+23,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2911
+24,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1792
+25,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,622
+26,Correct,N/A,0.05,Over-Verbose / Padding,Excessive Narrative Detail,32767
+27,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1503
+28,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1824
+29,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1894
+30,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2567
+31,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,3130
+32,Correct,N/A,0.4,Over-Verbose / Padding,Excessive Narrative Detail,3070
+33,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2007
+34,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucination / Fabrication,Fabricated Objects or Options,1504
+35,Correct,N/A,0.4,Hallucination / Fabrication,Fabricated Timeline or Events,2788
+36,Visual Perception Failure,Action / Event Misperception,0.2,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1416
+37,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2285
+38,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1505
+39,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,657
+40,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2838
+41,Correct,N/A,0.6,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,2591
+42,Correct,N/A,0.5,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1532
+43,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2244
+44,Correct,N/A,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1848
+45,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1522
+46,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1755
+47,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1554
+48,Visual Perception Failure,Action / Event Misperception,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1600
+49,Correct,N/A,0.8,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1416
+50,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1845
+51,Visual Perception Failure,Action / Event Misperception,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,983
+52,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,946
+53,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2500
+54,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1654
+55,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1750
+56,Correct,N/A,0.8,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1401
+57,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2693
+58,Correct,N/A,0.4,Over-Verbose / Padding,Redundant Restatement,2934
+59,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1202
+60,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Over-Verbose / Padding,Redundant Restatement,32767
+61,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1880
+62,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,977
+63,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1487
+64,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1389
+65,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2208
+66,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,984
+67,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1322
+68,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,3033
+69,Visual Perception Failure,Object Presence / State Tracking Error,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,890
+70,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1949
+71,Correct,N/A,0.3,Over-Verbose / Padding,Excessive Narrative Detail,7743
+72,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,804
+73,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1675
+74,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1246
+75,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1137
+76,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2299
+77,Correct,N/A,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,2545
+78,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1373
+79,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1548
+80,Correct,N/A,0.85,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1575
+81,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2789
+82,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.25,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,32767
+83,Visual Perception Failure,Action / Event Misperception,0.15,Over-Verbose / Padding,Redundant Restatement,32767
+84,Correct,N/A,0.5,Over-Verbose / Padding,Excessive Narrative Detail,1436
+85,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1606
+86,Visual Perception Failure,Action / Event Misperception,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1773
+87,Correct,N/A,0.8,Over-Verbose / Padding,Excessive Narrative Detail,1298
+88,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2772
+89,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1337
+90,Visual Perception Failure,Action / Event Misperception,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1637
+91,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1542
+92,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,987
+93,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,1169
+94,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,861
+95,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.25,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,32767
+96,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1273
+97,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,1680
+98,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1347
+99,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1326
+100,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,926
+101,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,721
+102,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1982
+103,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1893
+104,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1483
+105,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1127
+106,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,1195
+107,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucination / Fabrication,Fabricated Objects or Options,1770
+108,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1988
+109,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1750
+110,Correct,N/A,0.6,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,1840
+111,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,909
+112,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,16886
+113,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1553
+114,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2195
+115,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,3200
+116,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,3045
+117,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,863
+118,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1453
+119,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1891
+120,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1247
+121,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1117
+122,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,1225
+123,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,3032
+124,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,2646
+125,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2021
+126,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2668
+127,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1129
+128,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1884
+129,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Hallucination / Fabrication,Fabricated Causal Stories,1456
+130,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1441
+131,Correct,N/A,0.5,Over-Verbose / Padding,Unnecessary Background & Commentary,1181
+132,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Hallucination / Fabrication,Fabricated Objects or Options,1272
+133,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2253
+134,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1077
+135,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1273
+136,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,928
+137,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1584
+138,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,862
+139,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,901
+140,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1719
+141,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1728
+142,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2132
+143,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,575
+144,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1047
+145,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2015
+146,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2334
+147,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1469
+148,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1304
+149,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1830
+150,Correct,N/A,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1536
+151,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1284
+152,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,3041
+153,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,664
+154,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1794
+155,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,3694
+156,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.15,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1844
+157,Correct,N/A,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1726
+158,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.01,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+159,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,370
+160,Correct,N/A,0.05,Over-Verbose / Padding,Excessive Narrative Detail,16740
+161,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2291
+162,Correct,N/A,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1672
+163,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2389
+164,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1872
+165,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1233
+166,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,938
+167,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1057
+168,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,4925
+169,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1667
+170,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,954
+171,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,2285
+172,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+173,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,5616
+174,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2097
+175,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,3678
+176,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,768
+177,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Fabricated Causal Stories,1676
+178,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,2817
+179,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2080
+180,Correct,N/A,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,2988
+181,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,584
+182,Correct,N/A,0.8,Over-Verbose / Padding,Redundant Restatement,1086
+183,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,669
+184,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,786
+185,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2117
+186,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+187,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Over-Verbose / Padding,Excessive Narrative Detail,32767
+188,Correct,N/A,0.4,Over-Verbose / Padding,Unnecessary Background & Commentary,1945
+189,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1008
+190,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Causal Stories,1459
+191,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1681
+192,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1864
+193,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,778
+194,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1340
+195,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2381
+196,Correct,N/A,1.0,None,Unspecified,1498
+197,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1953
+198,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2049
+199,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2417
+200,Visual Perception Failure,Action / Event Misperception,0.3,Hallucination / Fabrication,Fabricated Causal Stories,2012
+201,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1992
+202,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,1894
+203,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2482
+204,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2165
+205,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1965
+206,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1826
+207,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucination / Fabrication,Fabricated Causal Stories,2728
+208,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,3307
+209,Correct,N/A,0.8,Over-Verbose / Padding,Redundant Restatement,2291
+210,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1660
+211,Correct,N/A,0.8,Over-Verbose / Padding,Redundant Restatement,3580
+212,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,3579
+213,Correct,N/A,0.4,Over-Verbose / Padding,Unnecessary Background & Commentary,1763
+214,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,3462
+215,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Incorrect but Confident Reasoning,Fabricated Causal Stories,1910
+216,Correct,N/A,0.8,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,3447
+217,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1287
+218,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1654
+219,Correct,N/A,0.8,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,715
+220,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Over-Verbose / Padding,Excessive Narrative Detail,1626
+221,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1568
+222,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1438
+223,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1372
+224,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+225,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,539
+226,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1558
+227,Correct,N/A,0.25,Over-Verbose / Padding,Redundant Restatement,32767
+228,Correct,N/A,0.5,Hallucination / Fabrication,Fabricated Causal Stories,463
+229,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Objects or Options,1034
+230,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2033
+231,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1263
+232,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,2535
+233,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1848
+234,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1102
+235,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.15,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,32767
+236,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1856
+237,Correct,N/A,0.95,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,3381
+238,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1969
+239,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2079
+240,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1318
+241,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,4240
+242,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,711
+243,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,2962
+244,Correct,N/A,0.8,Over-Verbose / Padding,Excessive Narrative Detail,2020
+245,Correct,N/A,0.8,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,2990
+246,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2160
+247,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,3820
+248,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Causal Stories,1893
+249,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,487
+250,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucination / Fabrication,Fabricated Causal Stories,1489
+251,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,850
+252,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2498
+253,Correct,N/A,0.8,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1350
+254,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Hallucination / Fabrication,Fabricated Causal Stories,2483
+255,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,3145
+256,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+257,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,3273
+258,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2972
+259,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,907
+260,Correct,N/A,0.25,Over-Verbose / Padding,Redundant Restatement,32767
+261,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2475
+262,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2091
+263,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2231
+264,Visual Perception Failure,Action / Event Misperception,0.2,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,3125
+265,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.3,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,1981
+266,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1982
+267,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,872
+268,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1893
+269,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,1940
+270,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,613
+271,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Over-Verbose / Padding,Excessive Narrative Detail,4447
+272,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2120
+273,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1830
+274,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1247
+275,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,450
+276,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2476
+277,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,408
+278,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1479
+279,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2319
+280,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,1477
+281,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Over-Verbose / Padding,Unnecessary Background & Commentary,794
+282,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,747
+283,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Over-Verbose / Padding,Excessive Narrative Detail,1500
+284,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1995
+285,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1788
+286,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1302
+287,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,4566
+288,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,755
+289,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1046
+290,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Hallucination / Fabrication,Fabricated Objects or Options,359
+291,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,1396
+292,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1668
+293,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,2378
+294,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1872
+295,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1964
+296,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,1733
+297,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2968
+298,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2605
+299,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,2465
+300,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1424
+301,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,2816
+302,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,1684
+303,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,1426
+304,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1575
+305,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,3173
+306,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,1686
+307,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2070
+308,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,3850
+309,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2395
+310,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,695
+311,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1168
+312,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1815
+313,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1661
+314,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,513
+315,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,2726
+316,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2358
+317,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2108
+318,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,3247
+319,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2334
+320,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,4017
+321,Visual Perception Failure,Action / Event Misperception,0.4,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,2440
+322,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Over-Verbose / Padding,Redundant Restatement,32767
+323,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,1396
+324,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2749
+325,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1292
+326,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2021
+327,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2860
+328,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2479
+329,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2021
+330,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2452
+331,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2763
+332,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,3063
+333,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2156
+334,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,3130
+335,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,2078
+336,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,2121
+337,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2016
+338,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2139
+339,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1617
+340,Visual Perception Failure,Object Presence / State Tracking Error,0.5,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1201
+341,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2739
+342,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1065
+343,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,960
+344,Correct,N/A,0.15,Over-Verbose / Padding,Redundant Restatement,32767
+345,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Temporal Imprecision or Misalignment,3044
+346,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1899
+347,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,920
+348,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+349,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1073
+350,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,6608
+351,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1465
+352,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1051
+353,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,7015
+354,Correct,N/A,0.4,Over-Verbose / Padding,Redundant Restatement,3081
+355,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,576
+356,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2630
+357,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1082
+358,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.25,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,32767
+359,Visual Perception Failure,Object Presence / State Tracking Error,0.05,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,32767
+360,Correct,N/A,0.6,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1994
+361,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2593
+362,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1337
+363,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1872
+364,Correct,N/A,0.8,Over-Verbose / Padding,Redundant Restatement,1507
+365,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1073
+366,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1151
+367,Visual Perception Failure,Action / Event Misperception,0.3,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,786
+368,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2270
+369,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Over-Verbose / Padding,Redundant Restatement,631
+370,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,802
+371,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1070
+372,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Causal Stories,733
+373,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1445
+374,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1082
+375,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1619
+376,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,562
+377,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Objects or Options,32767
+378,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,404
+379,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1112
+380,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1294
+381,Correct,N/A,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1782
+382,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,931
+383,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,981
+384,Visual Perception Failure,Action / Event Misperception,0.3,Hallucination / Fabrication,Fabricated Causal Stories,1320
+385,Correct,N/A,0.6,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1030
+386,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1446
+387,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1203
+388,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1030
+389,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Incorrect but Confident Reasoning,Fabricated Timeline or Events,1476
+390,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1591
+391,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,820
+392,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1355
+393,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,677
+394,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2470
+395,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2946
+396,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.25,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,3073
+397,Visual Perception Failure,Action / Event Misperception,0.2,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,595
+398,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,3195
+399,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1733
+400,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,3962
+401,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,2183
+402,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2116
+403,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2825
+404,Correct,N/A,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1068
+405,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Hallucination / Fabrication,Fabricated Objects or Options,904
+406,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,8455
+407,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1423
+408,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.25,Hallucination / Fabrication,Fabricated Timeline or Events,5164
+409,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2133
+410,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.5,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,997
+411,Correct,N/A,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1050
+412,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.15,Over-Verbose / Padding,Excessive Narrative Detail,5695
+413,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1523
+414,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1014
+415,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,838
+416,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2865
+417,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2076
+418,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1362
+419,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2271
+420,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1814
+421,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1668
+422,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,370
+423,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Over-Verbose / Padding,Redundant Restatement,32767
+424,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1472
+425,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,984
+426,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1204
+427,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,755
+428,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,996
+429,Correct,N/A,0.8,Over-Verbose / Padding,Unnecessary Background & Commentary,1375
+430,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1114
+431,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1602
+432,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1966
+433,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,606
+434,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,765
+435,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,490
+436,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,904
+437,Visual Perception Failure,Action / Event Misperception,0.4,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1477
+438,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2244
+439,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1647
+440,Correct,N/A,0.4,Over-Verbose / Padding,Excessive Narrative Detail,2283
+441,Correct,N/A,0.8,Over-Verbose / Padding,Redundant Restatement,471
+442,Correct,N/A,0.8,Over-Verbose / Padding,Excessive Narrative Detail,963
+443,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,505
+444,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2529
+445,Correct,N/A,0.1,Over-Verbose / Padding,Redundant Restatement,32767
+446,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1343
+447,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1339
+448,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2000
+449,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,2599
+450,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,617
+451,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,655
+452,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1459
+453,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1889
+454,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.5,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1356
+455,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2592
+456,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Under-Specified Grounding / Weak Localization,Failure to Compare Key Moments,19073
+457,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1562
+458,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,483
+459,Correct,N/A,0.3,Over-Verbose / Padding,Unnecessary Background & Commentary,790
+460,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,32767
+461,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Over-Verbose / Padding,Excessive Narrative Detail,32767
+462,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1245
+463,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,3359
+464,Visual Perception Failure,Object / Attribute Misrecognition,0.1,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,718
+465,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2058
+466,Correct,N/A,0.5,Over-Verbose / Padding,Excessive Narrative Detail,2072
+467,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,963
+468,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Causal Stories,778
+469,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1612
+470,Correct,N/A,0.95,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1131
+471,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1622
+472,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,1973
+473,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1938
+474,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1022
+475,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1018
+476,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,2118
+477,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,3753
+478,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Causal Stories,2704
+479,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1294
+480,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,738
+481,Visual Perception Failure,Action / Event Misperception,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2213
+482,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,484
+483,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,426
+484,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1537
+485,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2443
+486,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,3134
+487,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2782
+488,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1493
+489,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Over-Verbose / Padding,Redundant Restatement,2136
+490,Correct,N/A,0.4,Over-Verbose / Padding,Excessive Narrative Detail,1987
+491,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2493
+492,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2325
+493,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,2417
+494,Correct,N/A,0.5,Over-Verbose / Padding,Excessive Narrative Detail,1776
+495,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.15,Over-Verbose / Padding,Redundant Restatement,32767
+496,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Over-Verbose / Padding,Excessive Narrative Detail,2419
+497,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1293
+498,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2048
+499,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2857
+500,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,804
+501,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,829
+502,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucination / Fabrication,Fabricated Timeline or Events,2204
+503,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,1685
+504,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1766
+505,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,823
+506,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2329
+507,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,3494
+508,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2262
+509,Correct,N/A,0.4,Over-Verbose / Padding,Excessive Narrative Detail,2168
+510,Correct,N/A,0.4,Over-Verbose / Padding,Unnecessary Background & Commentary,1751
+511,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2091
+512,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.05,Over-Verbose / Padding,Redundant Restatement,32767
+513,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,652
+514,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2348
+515,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Objects or Options,32767
+516,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1541
+517,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,657
+518,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1520
+519,Visual Perception Failure,Action / Event Misperception,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1159
+520,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1673
+521,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2256
+522,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,651
+523,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1684
+524,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1790
+525,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1213
+526,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2974
+527,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Over-Verbose / Padding,Redundant Restatement,32767
+528,Correct,N/A,0.05,Over-Verbose / Padding,Redundant Restatement,32767
+529,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1598
+530,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2185
+531,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1531
+532,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Hallucination / Fabrication,Fabricated Causal Stories,2878
+533,Visual Perception Failure,Action / Event Misperception,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2751
+534,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1230
+535,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1742
+536,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,393
+537,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1666
+538,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1237
+539,Correct,N/A,0.5,Over-Verbose / Padding,Excessive Narrative Detail,1838
+540,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1113
+541,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2267
+542,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1403
+543,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Causal Stories,1858
+544,Correct,N/A,0.4,Over-Verbose / Padding,Unnecessary Background & Commentary,2181
+545,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2100
+546,Correct,N/A,0.4,Over-Verbose / Padding,Excessive Narrative Detail,2489
+547,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1192
+548,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1412
+549,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2273
+550,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,2400
+551,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1481
+552,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,2439
+553,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,3230
+554,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,3970
+555,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2719
+556,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,32767
+557,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,3711
+558,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,3728
+559,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,2243
+560,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,2448
+561,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,3832
+562,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,2213
+563,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Causal Stories,2509
+564,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1246
+565,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Objects or Options,1747
+566,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,3639
+567,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.7,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1058
+568,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,3140
+569,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1895
+570,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,1399
+571,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,849
+572,Visual Perception Failure,Action / Event Misperception,0.2,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1086
+573,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1392
+574,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1842
+575,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2356
+576,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2878
+577,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.2,Incorrect but Confident Reasoning,Irrelevant Justification of Wrong Claims,1510
+578,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1374
+579,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1476
+580,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1123
+581,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1630
+582,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1626
+583,Visual Perception Failure,Action / Event Misperception,0.4,Hallucination / Fabrication,Fabricated Causal Stories,3206
+584,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1302
+585,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1558
+586,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1976
+587,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,2119
+588,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucination / Fabrication,Fabricated Causal Stories,413
+589,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,1374
+590,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,507
+591,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1021
+592,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,3294
+593,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,3142
+594,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1020
+595,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2294
+596,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1070
+597,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,1688
+598,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,1079
+599,Correct,N/A,0.1,Over-Verbose / Padding,Redundant Restatement,32767
+600,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1698
+601,Correct,N/A,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1707
+602,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,2064
+603,Correct,N/A,0.6,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1842
+604,Correct,N/A,0.5,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1293
+605,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1046
+606,Visual Perception Failure,Action / Event Misperception,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,1433
+607,Correct,N/A,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1349
+608,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1732
+609,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1811
+610,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1595
+611,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,674
+612,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1549
+613,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2290
+614,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.05,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,32767
+615,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2482
+616,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1326
+617,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+618,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.7,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1056
+619,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1441
+620,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,3275
+621,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1811
+622,Correct,N/A,1.0,None,Unspecified,603
+623,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1138
+624,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1910
+625,Visual Perception Failure,Action / Event Misperception,0.4,Hallucination / Fabrication,Fabricated Timeline or Events,521
+626,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,2482
+627,Correct,N/A,0.7,Hallucination / Fabrication,Fabricated Timeline or Events,1974
+628,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+629,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2635
+630,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.25,Over-Verbose / Padding,Redundant Restatement,32767
+631,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1230
+632,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2037
+633,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1547
+634,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.15,Over-Verbose / Padding,Redundant Restatement,32767
+635,Visual Perception Failure,Object / Attribute Misrecognition,0.5,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1103
+636,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,980
+637,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2023
+638,Correct,N/A,0.4,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,2200
+639,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Over-Verbose / Padding,Redundant Restatement,32767
+640,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1984
+641,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1147
+642,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,976
+643,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1047
+644,Correct,N/A,0.8,Over-Verbose / Padding,Excessive Narrative Detail,875
+645,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Objects or Options,32767
+646,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucination / Fabrication,Fabricated Timeline or Events,32767
+647,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,1440
+648,Correct,N/A,0.25,Over-Verbose / Padding,Unnecessary Background & Commentary,1859
+649,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1206
+650,Correct,N/A,0.5,Over-Verbose / Padding,Unnecessary Background & Commentary,2237
+651,Visual Perception Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,693
+652,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,856
+653,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1302
+654,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1101
+655,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,892
+656,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,634
+657,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,2438
+658,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,2903
+659,Correct,N/A,0.95,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,988
+660,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1927
+661,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1494
+662,Visual Perception Failure,Action / Event Misperception,0.4,Over-Verbose / Padding,Excessive Narrative Detail,2342
+663,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.15,Over-Verbose / Padding,Redundant Restatement,32767
+664,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,743
+665,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1264
+666,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1870
+667,Correct,N/A,0.8,Over-Verbose / Padding,Excessive Narrative Detail,1365
+668,Correct,N/A,0.8,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1118
+669,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1334
+670,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1111
+671,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,2130
+672,Correct,N/A,0.6,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,2956
+673,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1720
+674,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2459
+675,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,2537
+676,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2686
+677,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,1272
+678,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1112
+679,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,976
+680,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1108
+681,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,2037
+682,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,853
+683,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,941
+684,Visual Perception Failure,Action / Event Misperception,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2821
+685,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1773
+686,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2161
+687,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Objects or Options,446
+688,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,671
+689,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1539
+690,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1143
+691,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.5,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,2438
+692,Correct,N/A,0.4,Over-Verbose / Padding,Excessive Narrative Detail,2519
+693,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1901
+694,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1272
+695,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,714
+696,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1221
+697,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1035
+698,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1203
+699,Correct,N/A,0.05,Over-Verbose / Padding,Excessive Narrative Detail,31838
+700,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1709
+701,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1989
+702,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,987
+703,Correct,N/A,0.5,Over-Verbose / Padding,Excessive Narrative Detail,1632
+704,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,825
+705,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,756
+706,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,739
+707,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1529
+708,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Over-Verbose / Padding,Excessive Narrative Detail,896
+709,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,3393
+710,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1300
+711,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1182
+712,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1568
+713,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2029
+714,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,628
+715,Visual Perception Failure,Action / Event Misperception,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1661
+716,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1554
+717,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1864
+718,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.4,Hallucination / Fabrication,Fabricated Timeline or Events,1443
+719,Correct,N/A,0.6,Over-Verbose / Padding,Redundant Restatement,2163
+720,Correct,N/A,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1319
+721,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,420
+722,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,501
+723,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,3086
+724,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,2039
+725,Correct,N/A,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1982
+726,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1496
+727,Correct,N/A,0.5,Over-Verbose / Padding,Unnecessary Background & Commentary,486
+728,Correct,N/A,0.7,Over-Verbose / Padding,Excessive Narrative Detail,2528
+729,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,498
+730,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,672
+731,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,320
+732,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,653
+733,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,703
+734,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Hallucination / Fabrication,Fabricated Timeline or Events,2134
+735,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,962
+736,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1722
+737,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,344
+738,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,1914
+739,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,689
+740,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,357
+741,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,312
+742,Visual Perception Failure,Action / Event Misperception,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,639
+743,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1833
+744,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1733
+745,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2005
+746,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1519
+747,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Under-Specified Grounding / Weak Localization,Vague or Rough Localization,159
+748,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.3,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,951
+749,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,468
+750,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,618
+751,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,427
+752,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1089
+753,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,407
+754,Visual Perception Failure,Action / Event Misperception,0.4,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1566
+755,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,292
+756,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1507
+757,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,506
+758,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Over-Verbose / Padding,Unnecessary Background & Commentary,554
+759,Visual Perception Failure,Action / Event Misperception,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,548
+760,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,868
+761,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Over-Verbose / Padding,Excessive Narrative Detail,1644
+762,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,524
+763,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucination / Fabrication,Fabricated Causal Stories,442
+764,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,672
+765,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1382
+766,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1529
+767,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,1055
+768,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,212
+769,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1141
+770,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1045
+771,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Causal Stories,768
+772,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,865
+773,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,632
+774,Correct,N/A,1.0,None,Unspecified,87
+775,Correct,N/A,1.0,None,Unspecified,73
+776,Correct,N/A,0.25,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,955
+777,Correct,N/A,0.6,Over-Verbose / Padding,Redundant Restatement,243
+778,Visual Perception Failure,Action / Event Misperception,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,722
+779,Correct,N/A,0.5,Over-Verbose / Padding,Unnecessary Background & Commentary,342
+780,Visual Perception Failure,Action / Event Misperception,0.3,Hallucination / Fabrication,Fabricated Objects or Options,286
+781,Correct,N/A,0.4,Over-Verbose / Padding,Redundant Restatement,1446
+782,Correct,N/A,0.4,Over-Verbose / Padding,Unnecessary Background & Commentary,1665
+783,Correct,N/A,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,510
+784,Correct,N/A,0.4,Over-Verbose / Padding,Excessive Narrative Detail,2128
+785,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,845
+786,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,397
+787,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,544
+788,Visual Perception Failure,Action / Event Misperception,0.4,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,1102
+789,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.15,Over-Verbose / Padding,Excessive Narrative Detail,1682
+790,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,344
+791,Visual Perception Failure,Action / Event Misperception,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,549
+792,Correct,N/A,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1565
+793,Correct,N/A,0.6,Over-Verbose / Padding,Excessive Narrative Detail,2015
+794,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1999
+795,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,1029
+796,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Over-Verbose / Padding,Excessive Narrative Detail,1699
+797,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1672
+798,Correct,N/A,0.6,Over-Verbose / Padding,Unnecessary Background & Commentary,535
+799,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1507
+800,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1594
+801,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,610
+802,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,219
+803,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,773
+804,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Over-Verbose / Padding,Unnecessary Background & Commentary,430
+805,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1904
+806,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1445
+807,Correct,N/A,0.5,Over-Verbose / Padding,Unnecessary Background & Commentary,2226
+808,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.25,Over-Verbose / Padding,Unnecessary Background & Commentary,549
+809,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,585
+810,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,536
+811,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Over-Verbose / Padding,Unnecessary Background & Commentary,635
+812,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Hallucination / Fabrication,Fabricated Objects or Options,416
+813,Correct,N/A,0.7,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1864
+814,Correct,N/A,0.5,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1419
+815,Correct,N/A,0.5,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,491
+816,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1396
+817,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,462
+818,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1406
+819,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,975
+820,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,601
+821,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1284
+822,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucination / Fabrication,Fabricated Timeline or Events,894
+823,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1446
+824,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1906
+825,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1493
+826,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2034
+827,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,2019
+828,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1984
+829,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,1239
+830,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,568
+831,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,650
+832,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2499
+833,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2212
+834,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1402
+835,Visual Perception Failure,Object / Attribute Misrecognition,0.1,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,421
+836,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1245
+837,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1624
+838,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,192
+839,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1855
+840,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1974
+841,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2150
+842,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1642
+843,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1528
+844,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1331
+845,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,621
+846,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1382
+847,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1400
+848,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2161
+849,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1259
+850,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1381
+851,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,3655
+852,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1678
+853,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1344
+854,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2078
+855,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2036
+856,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2525
+857,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2868
+858,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2286
+859,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1630
+860,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2114
+861,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2043
+862,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1669
+863,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1397
+864,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2081
+865,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2302
+866,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1401
+867,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,2101
+868,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2088
+869,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2052
+870,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1076
+871,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,2312
+872,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,3151
+873,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1667
+874,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucination / Fabrication,Fabricated Quantitative Details,1819
+875,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucination / Fabrication,Fabricated Quantitative Details,2163
+876,Visual Perception Failure,Action / Event Misperception,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,2150
+877,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1063
+878,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1396
+879,Visual Perception Failure,Object / Attribute Misrecognition,0.25,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1683
+880,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2507
+881,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,1973
+882,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Incorrect but Confident Reasoning,Misinterpretation of Visual Evidence,1462
+883,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,561
+884,Visual Perception Failure,Action / Event Misperception,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2174
+885,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1923
+886,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1862
+887,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1280
+888,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2065
+889,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1163
+890,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2319
+891,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.15,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,3312
+892,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,2089
+893,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1083
+894,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2057
+895,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1675
+896,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2142
+897,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1254
+898,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2798
+899,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,1081
+900,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1358
+901,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1577
+902,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1522
+903,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1955
+904,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,1595
+905,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,760
+906,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1144
+907,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,1529
+908,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,1281
+909,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1719
+910,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1344
+911,Visual Perception Failure,Object / Attribute Misrecognition,0.25,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2493
+912,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1923
+913,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1737
+914,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Irrelevant / Off-Target Reasoning,Background That Misses the Key Distinction,1829
+915,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1333
+916,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1453
+917,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1819
+918,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2774
+919,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2279
+920,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1067
+921,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1832
+922,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1366
+923,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2824
+924,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1086
+925,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2153
+926,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1371
+927,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1214
+928,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,2029
+929,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1498
+930,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1344
+931,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1607
+932,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1960
+933,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1044
+934,Visual Perception Failure,Object / Attribute Misrecognition,0.25,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2191
+935,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,966
+936,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,1900
+937,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2021
+938,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1380
+939,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Under-Specified Grounding / Weak Localization,Speculative Spatial Estimation,2205
+940,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1397
+941,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2075
+942,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1285
+943,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1841
+944,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1078
+945,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1633
+946,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,686
+947,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1100
+948,Visual Perception Failure,Object / Attribute Misrecognition,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,246
+949,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1675
+950,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,2019
+951,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1122
+952,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1920
+953,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,1883
+954,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,2559
+955,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Over-Verbose / Padding,Unnecessary Background & Commentary,2173
+956,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1057
+957,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1312
+958,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,489
+959,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1896
+960,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,2058
+961,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1091
+962,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,2050
+963,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Over-Verbose / Padding,Unnecessary Background & Commentary,3112
+964,Visual Perception Failure,Action / Event Misperception,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,924
+965,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Under-Specified Grounding / Weak Localization,Temporal Imprecision or Misalignment,114
+966,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,799
+967,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,309
+968,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Under-Specified Grounding / Weak Localization,Vague or Rough Localization,2275
+969,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,2763
+970,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,913
+971,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Under-Specified Grounding / Weak Localization,Vague or Rough Localization,2240
+972,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1058
+973,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1674
+974,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1540
+975,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Over-Commitment to a Misread Question,333
+976,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,492
+977,Visual Perception Failure,Action / Event Misperception,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1502
+978,Visual Perception Failure,Action / Event Misperception,0.3,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,442
+979,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,898
+980,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Over-Verbose / Padding,Unnecessary Background & Commentary,1502
+981,Correct,N/A,0.9,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,869
+982,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1504
+983,Correct,N/A,0.02,Over-Verbose / Padding,Excessive Narrative Detail,32767
+984,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1201
+985,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,1797
+986,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,2370
+987,Visual Perception Failure,Object Presence / State Tracking Error,0.6,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,510
+988,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,1775
+989,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1114
+990,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,1112
+991,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,462
+992,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1065
+993,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucination / Fabrication,Fabricated Timeline or Events,4944
+994,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,117
+995,Correct,N/A,0.6,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1682
+996,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,927
+997,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,944
+998,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,963
+999,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,1259
+1000,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,1644
+1001,Correct,N/A,0.7,Over-Verbose / Padding,Redundant Restatement,612
+1002,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,757
+1003,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,342
+1004,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,2025
+1005,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,593
+1006,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1220
+1007,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Over-Verbose / Padding,Redundant Restatement,1020
+1008,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.7,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1272
+1009,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.5,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,610
+1010,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1523
+1011,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,735
+1012,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1246
+1013,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,366
+1014,Visual Perception Failure,Action / Event Misperception,0.4,Partially Useful but Over-Extended Reasoning,Correct Identification with Extraneous Steps,894
+1015,Visual Perception Failure,Action / Event Misperception,0.1,Incorrect but Confident Reasoning,Wrong Final Choice After Long Reasoning,4
+1016,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,339
+1017,Visual Perception Failure,Action / Event Misperception,0.8,Partially Useful but Over-Extended Reasoning,Mostly Relevant with Minor Verbosity,1029
+1018,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Over-Verbose / Padding,Redundant Restatement,1338
+1019,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,363
+1020,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,1137
+1021,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,845
+1022,Correct,N/A,0.7,Over-Verbose / Padding,Unnecessary Background & Commentary,1456
+1023,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.8,Partially Useful but Over-Extended Reasoning,Structured but Over-Detailed Justification,604
+1024,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1279
+1025,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1029
+1026,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,317
+1027,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant / Off-Target Reasoning,Meta-Discussion Instead of Task Completion,1033
+1028,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant / Off-Target Reasoning,Generic Narrative Not Tied to the Query,693
+1029,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1813
+1030,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.7,Partially Useful but Over-Extended Reasoning,High-Level Insight with Misleading Fine Detail,1718
+1031,Correct,N/A,0.7,Over-Verbose / Padding,Over-Structured Step-by-Step for Simple Tasks,429
+1032,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant / Off-Target Reasoning,Irrelevant Justification of Wrong Claims,429
+1033,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.9,Incorrect but Confident Reasoning,Flawed Counting or Comparison Logic,92

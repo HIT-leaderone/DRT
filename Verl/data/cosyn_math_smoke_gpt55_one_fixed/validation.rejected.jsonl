@@ -1,0 +1,1 @@
+{"id": "LaTeXMathPipeline_counting_8-16", "split": "validation", "original_index": 0, "reject_reason": "bench_score_below_3", "figure_type": "counting", "bench_relevance": {"MathVista": 0, "MathVerse": 1, "LogicVista": 2, "GSM8K": 2, "VideoHolmes": 0}, "image_type": "rendered_text_problem", "visual_dependency": "weak"}

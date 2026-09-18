@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+.env
+.env.*
+/.cache/
+/models/
+/checkpoints/
+/outputs/
+/benchmark_data/
+/training_data/VisionR1_DAPO/
+/training_data/Vision-R1/

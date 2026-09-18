@@ -1,0 +1,15 @@
+{
+  "accepted": 7,
+  "rejected": 1,
+  "completed_this_run": 8,
+  "scanned": 9,
+  "parts_dir": "data/mmfinereason_rl_checkpoint_skip_smoke_20260527/rl.parquet.parts",
+  "reject_path": "data/mmfinereason_rl_checkpoint_skip_smoke_20260527/rl.rejected.jsonl",
+  "reject_reasons": [
+    [
+      "trivial_caption_or_recognition_qa",
+      1
+    ]
+  ],
+  "running": false
+}

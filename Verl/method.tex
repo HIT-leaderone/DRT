@@ -1,0 +1,123 @@
+\section{Method}
+In this section, we present Dense Reasoning Trace (DRT), a data-centric framework for improving multimodal reasoning efficiency by compressing verbose reasoning trajectories into compact, high-density structured traces. We first formalize the DRT representation in Sec.~\ref{drt_define}, where visual perception is explicitly separated from logical deduction and the latter is organized into a telegraphic, symbolically structured format. We then introduce a two-stage optimization pipeline: 
+(\textit{i}) \textbf{SFT stage} (Sec.~\ref{sft}), where raw instruction data are reformulated into the DRT-SFT dataset to initialize the model with efficient reasoning patterns.
+(\textit{ii}) \textbf{RL stage} (Sec.~\ref{rl}), where a generate-and-verify pipeline is used to construct the DRT-RL dataset with stepwise process traces, followed by process-level reinforcement learning to improve reasoning accuracy under tight token budgets.
+
+\subsection{Dense Reasoning Trace Representation}\label{drt_define}
+
+Although long chain-of-thought (CoT) reasoning has shown strong performance on complex multimodal tasks, its practical effectiveness is often limited by \emph{informational dilution} and \emph{weakened visual grounding}. To maintain linguistic fluency, models often generate substantial verbal scaffolding that contributes little to the actual reasoning process, resulting in unnecessary computational overhead~\cite{li2025compressing,she2025hawkeye,choi-etal-2025-think} and even degenerate repetitive loops~\cite{NEURIPS2023_e6c2e85d,yao2025understanding}. In multimodal settings, long and increasingly self-referential reasoning traces may also cause the model to rely more on its own generated text than on the original visual evidence, thereby weakening grounding fidelity and increasing the risk of hallucination~\cite{huang2024opera}.
+
+To address these limitations, we propose \emph{Dense Reasoning Trace} (DRT), a structured reasoning representation designed to improve both reasoning efficiency and perceptual faithfulness. As illustrated in Fig.~\ref{fig_compare}, unlike standard CoT, which emphasizes natural-language fluency, DRT prioritizes compactness, information density, and explicit grounding. Specifically, DRT compresses the reasoning trajectory into a high-density telegraphic format using symbolic connectors, replacing verbose narration with concise intermediate states. To preserve grounding under this compressed representation, DRT further disentangles visual perception from logical deduction, so that observed evidence and inferred conclusions are represented in distinct stages. As a result, each generated token is encouraged to serve as either a grounded observation or a high-value reasoning step.
+
+Formally, the DRT paradigm organizes the reasoning process into three components:
+
+\noindent\textbf{Visual Grounding (\texttt{<visual>}):}
+This component aggregates essential visual primitives, including object attributes, spatial relations, counts, and temporal cues, into an explicit evidence set. By isolating perceptual evidence from downstream inference, it provides a stable grounding anchor and reduces the risk of later deductions drifting away from the visual input.
+
+\noindent\textbf{Telegraphic Deduction (\texttt{<think>}):}
+Given the grounded visual evidence, this component first introduces task-relevant priors through an explicit \texttt{[Priors]} token, such as mathematical formulas, commonsense knowledge, and predefined rules. Deduction is then carried out jointly over the visual evidence and these priors as a compressed sequence of high-information state transitions. Rather than generating fluent but redundant explanations, DRT represents the reasoning process in a telegraphic symbolic format, retaining only essential relations, constraints, and intermediate conclusions. This design improves the information-to-token ratio and reduces computational overhead.
+
+\noindent\textbf{Conclusion (\texttt{<answer>}):}
+The final answer is generated directly from the grounded evidence and compressed reasoning trace, ensuring that the output is the natural endpoint of the structured reasoning process rather than an independent free-form generation.
+
+Overall, DRT reformulates multimodal reasoning as a sequence of discrete, high-information states with explicit separation between perception and deduction. This representation not only improves reasoning efficiency by reducing linguistic redundancy, but also enhances faithfulness by encouraging deductions to remain anchored to verifiable visual evidence.
+
+\subsection{Supervised Fine-Tuning with DRT-SFT}\label{sft}
+Supervised fine-tuning (SFT) has been shown to be effective in improving instruction following~\cite{ouyang2022training,wang2023self} and shaping the reasoning behavior of large models~\cite{huang2025vision,xia2025tokenskip,jiang2025drp}. Motivated by this capability, we construct a dedicated SFT dataset, DRT-SFT ($\mathcal{D}_{\text{SFT}}$), following the proposed DRT reasoning pattern, and use it in the subsequent fine-tuning stage. This stage trains the model to adopt both the telegraphic syntax of dense reasoning traces and the explicit separation between visual perception and logical deduction. We describe the construction of DRT-SFT and the corresponding training objective below.
+
+We construct $\mathcal{D}_{\text{SFT}}$ by reformulating 200K multimodal samples from the Mulberry subset of the Vision-R1-Cold dataset~\cite{huang2025vision}, leveraging its high-quality reasoning trajectories across diverse multimodal tasks. We then apply a \textit{Deconstruct-and-Compress} pipeline to transform the original responses into the DRT format. Specifically, we use GPT-5.1~\cite{singh2025openai} as the teacher model to perform a three-step transformation: (\textit{i}) \textbf{Deconstructive Separation:} each original response is decomposed into three mutually exclusive components: \textit{Visual Observations}, \textit{Logical Reasoning}, and the \textit{Final Answer}. (\textit{ii}) \textbf{Telegraphic Compression:} natural-language narration is rewritten into a dense reasoning trace by replacing linguistic fillers with symbolic connectors (e.g., $\rightarrow$) and concise phrases. (\textit{iii}) \textbf{Explicit Anchoring:} within the $\texttt{<think>}$ module, we enforce a structured progression beginning with a $\texttt{[Priors]}$ anchor. This anchor encapsulates domain-specific formulas, commonsense axioms, or geometric constraints (e.g., $Area = \pi r^2$) distilled from the original trajectory and task context. Together with the extracted $\texttt{<visual>}$ evidence, it forms a complete set of preliminary information that provides the epistemic grounding for subsequent logical transitions.
+
+Given a training pair $(x, y) \in \mathcal{D}_{\text{SFT}}$, where $x$ denotes the multimodal input and $y$ the corresponding DRT-formatted target response, we train the model with the standard autoregressive supervised fine-tuning objective:
+\begin{equation}
+\mathcal{L}_{\text{SFT}}
+=
+- \sum_{t=1}^{|y|} \log p_{\theta}(y_t \mid x, y_{<t}).
+\end{equation}
+This objective encourages the model to reproduce the DRT-style reasoning format and answer-generation behavior from teacher-constructed supervision.
+
+\subsection{Process-level Reinforcement Learning with DRT-RL}\label{rl}
+Although supervised fine-tuning provides a stable initialization and equips the model with the basic DRT reasoning format, the direct transition from verbose natural-language trajectories to highly compressed telegraphic traces can still induce a noticeable performance drop~\cite{nohara2026optimal,xu2025cod}. To mitigate this trade-off, we introduce a subsequent reinforcement learning (RL) stage that improves reasoning quality while preserving the compactness of DRT. Specifically, we construct a dedicated DRT-RL dataset consisting of verified process-level trajectories and optimize the model with process-level rewards under strict token-budget constraints. In the following, we describe the construction of the DRT-RL dataset and the main components of our reinforcement learning framework.
+
+\subsubsection{Generate-and-Verify Construction of the DRT-RL Dataset}~\label{RL-dataset}
+
+We construct the reinforcement learning dataset $\mathcal{D}_{\text{RL}}$ through a rigorous generate-and-verify pipeline to obtain high-quality process supervision. For each problem instance, we construct an input consisting of the question and, when available, its associated image, and feed it to GPT-5.1~\cite{singh2025openai}, which serves as the teacher model for sampling multiple candidate reasoning trajectories. Each trajectory is represented as an ordered sequence of atomic reasoning units, where each unit captures a single logical transition together with its intermediate conclusion. This decomposition enables fine-grained process evaluation and provides richer supervision than outcome-level signals alone.
+
+To retain only reliable and non-trivial optimization targets, we further employ GPT-5.1~\cite{singh2025openai} as a strict verifier to filter the sampled trajectories. In practice, final-answer correctness alone is insufficient to ensure data quality. Besides incorrect answers, we frequently observe two additional failure modes: (i) introducing unverified intermediate values inferred from the visual input as implicit premises, and (ii) reaching the final answer through speculative shortcuts or ad hoc assumptions rather than rigorous derivation. To address these issues, the verifier audits each trajectory along three complementary dimensions:
+
+\noindent\textbf{Semantic Answer Correctness.}
+The verifier checks whether the final answer is mathematically or semantically equivalent to the ground-truth solution, rather than relying on exact string matching. This criterion allows alternative but equivalent expressions to be recognized as correct.
+
+\noindent\textbf{Visual Fidelity.}
+To eliminate hallucinated observations, the verifier requires every perceptual or input-dependent claim to be explicitly supported by the visual input, when present, or by the problem statement. Trajectories containing unverified inferred values, hallucinated observations, or unsupported heuristics are rejected, ensuring that the reasoning process remains grounded in observable evidence.
+
+\noindent\textbf{Reasoning Faithfulness.}
+Each deductive step must follow from verified observations, introduced priors, or established theorems, rather than from arbitrary assumptions. The verifier removes trajectories that exhibit logical inconsistencies, circular reasoning, unjustified shortcuts, or vacuous repetition, thereby preserving principled and information-dense traces.
+
+Only trajectories that receive a \texttt{PASS} verdict on all three dimensions are retained in $\mathcal{D}_{\text{RL}}$. By filtering noisy, ungrounded, and low-quality trajectories at the process level, this pipeline yields a high-fidelity collection of reasoning trajectories that serves as a stable foundation for the subsequent reinforcement learning stage.
+
+Following this generate-and-verify pipeline, we instantiate the final RL dataset using problem instances drawn from both multimodal and text-only sources to balance visual grounding with deep reasoning capability. Specifically, we use Vision-R1-RL~\cite{huang2025vision} as the primary multimodal source, which provides diverse vision-language reasoning tasks spanning arithmetic, geometry, and diagram-intensive problems. We further incorporate DAPO~\cite{yu2025dapo} as a text-only source to supply more challenging long-form reasoning trajectories. This addition improves the model's ability to perform deep and structured reasoning beyond visually grounded settings. In total, the resulting DRT-RL dataset comprises 8,936 vision-language samples from Vision-R1 and 5,788 text-only reasoning samples from DAPO, forming a balanced corpus for process-level reinforcement learning.
+
+\subsubsection{Reward Design}\label{reward}
+To align DRT training with the goals of accurate, faithful, and efficient reasoning, we design a structured reward grounded in the process-level supervision provided by the DRT-RL dataset. The overall reward is defined as
+\[
+R = R_{\text{format}} + R_{\text{main}} + R_{\text{bonus}}.
+\]
+The reward consists of three components: a format regularizer, a main reward for answer correctness with partial credit for incomplete but aligned reasoning, and a step bonus that encourages effective reasoning steps and useful deep exploration.
+
+The reward signals are derived from two sources. First, we apply rule-based checks to the generated response to assess structural validity and trace density. Second, we use Qwen3-235B-A22B-Instruct~\cite{bai2025qwen3} as a judge to compare the generated reasoning trace with the reference process annotation and extract process-level statistics, including the number of matched steps $N_{\text{match}}$ (i.e., reference steps for which the model reaches the correct intermediate result), hallucinated matched steps $N_{\text{hall}}$ (i.e., matched steps whose derivations rely on ungrounded assumptions), effective reasoning steps $N_{\text{eff}}$ (i.e., distinct, non-trivial, solution-advancing steps that introduce new intermediate results or constraints, excluding repetition, filler, paraphrases, and artificial over-segmentation), and deep exploration steps $N_{\text{deep}}$ (i.e., a subset of $N_{\text{eff}}$ that are not required for the minimal solution path but provide useful additional validation or alternative reasoning). These quantities are extracted by the judge under deterministic decoding based on predefined evaluation criteria specified in the prompt. We next describe how they are integrated into the reward formulation.
+
+\noindent\textbf{Format reward.}
+To preserve the structured DRT reasoning pattern learned during supervised fine-tuning, we introduce a format reward that enforces both structural validity and high-density telegraphic reasoning. Specifically, valid trajectories must maintain the required reasoning structure, including well-formed \texttt{<think>} and \texttt{<answer>} segments, and follow the symbolic style with concise connectors (e.g., $\rightarrow$). We additionally penalize overly verbose or poorly segmented traces, discouraging long natural-language expressions and promoting compact, information-dense transitions. Overall, this reward acts as a structural regularizer that keeps the policy within the DRT representation, stabilizes training, and prevents degeneration back to verbose chain-of-thought reasoning.
+
+\noindent\textbf{Main reward.}
+The main reward combines outcome-level correctness with process-level partial credit. Final answer correctness is determined by comparing the predicted answer with the ground-truth answer, whereas process completeness is measured by the proportion of correctly matched reasoning steps, defined as $\rho_{\text{comp}} = N_{\text{match}} / N_{\text{ref}}$, where $N_{\text{ref}}$ denotes the total number of reference steps in the ground-truth process annotation. The reward is defined as
+\[
+R_{\text{main}} = \lambda_{\text{main}} \cdot \mathbb{I}[a = a^{*}] + \rho_{\text{comp}}\lambda_{\text{proc}} \cdot (1 - \mathbb{I}[a = a^{*}]).
+\]
+where $\mathbb{I}[a = a^{*}]$ is determined using a combination of rule-based matching and LLM-based judgment.
+
+To account for the fact that matched steps may still contain hallucinated derivations, we further apply a multiplicative hallucination correction. Let $\rho_{\text{hall}} = N_{\text{hall}} / \max(N_{\text{match}}, 1)$ denote the fraction of hallucinated matched steps. The corrected reward becomes
+\[
+R_{\text{main}} \leftarrow R_{\text{main}} \cdot (1 - \lambda_{\text{hall}}\rho_{\text{hall}}),
+\]
+which down-weights answers that depend on ungrounded or spurious reasoning.
+
+\noindent\textbf{Step bonus reward.}
+To mitigate the shallow reasoning often observed after supervised fine-tuning, we introduce a step bonus reward that provides additional incentives for coherent multi-step deduction and effective deep exploration. This bonus is computed from statistics extracted by the judge, including the numbers of effective reasoning steps and deep exploration steps. We define $\rho_{\text{reason}} = N_{\text{eff}} / \max(N_{\text{ref}}, 1)$ and $\rho_{\text{explore}} = N_{\text{deep}} / N_{\text{cap}}$, where $N_{\text{cap}}$ is a predefined upper bound on exploration steps that prevents unbounded reward growth. We further introduce a difficulty-dependent scaling factor $\rho_{\text{diff}}$, computed as a normalized function of the number of reference steps, to approximate problem difficulty and encourage deeper exploration on more complex instances.
+
+The resulting bonus reward is defined as
+\[
+R_{\text{bonus}} =
+\lambda_{\text{step}} \cdot \rho_{\text{comp}} \cdot \rho_{\text{reason}}
++
+\lambda_{\text{explore}} \cdot \rho_{\text{comp}} \cdot \rho_{\text{diff}} \cdot \rho_{\text{explore}}
+\]
+
+This bonus encourages more structured and non-trivial reasoning patterns without dominating the main correctness objective.
+
+Overall, this reward design unifies structural constraints, correctness, faithfulness, and depth-aware reasoning into a coherent optimization objective, enabling stable process-level reinforcement learning under the DRT representation. For detailed LLM judge prompts and hyperparameter settings, please refer to Appendix~\ref{app:verl_details}.
+
+\subsubsection{Policy Optimization}
+
+We adopt Group Relative Policy Optimization (GRPO)~\cite{guo2025deepseek} to optimize the policy using the reward defined above. For each input $q \sim \mathcal{D}_{\text{RL}}$, a group of outputs $\{o_1, o_2, \dots, o_G\}$ is sampled from the old policy $\pi_{\theta_{\text{old}}}$, and the policy $\pi_{\theta}$ is updated by maximizing the GRPO objective:
+\[
+\resizebox{\linewidth}{!}{$
+\mathcal{J}_{\text{GRPO}}(\theta)
+=
+\mathbb{E}_{q \sim P(Q), \{o_i\}_{i=1}^G \sim \pi_{\theta_{\text{old}}}(\cdot|q)}
+\left[
+\frac{1}{G} \sum_{i=1}^{G}
+\left(
+\min\left(
+\frac{\pi_{\theta}(o_i|q)}{\pi_{\theta_{\text{old}}}(o_i|q)} A_i,
+\;
+\text{clip}\left(
+\frac{\pi_{\theta}(o_i|q)}{\pi_{\theta_{\text{old}}}(o_i|q)}, 1-\epsilon, 1+\epsilon
+\right) A_i
+\right)
+- \beta D_{\text{KL}}(\pi_{\theta} \| \pi_{\text{ref}})
+\right)
+\right]
+$}
+\]
+where $A_i$ is the advantage computed from the group rewards $\{r_1, \dots, r_G\}$. In our setting, the reward is given by $r_i = R(o_i)$ using the structured process-level reward defined in Sec.~\ref{reward}.

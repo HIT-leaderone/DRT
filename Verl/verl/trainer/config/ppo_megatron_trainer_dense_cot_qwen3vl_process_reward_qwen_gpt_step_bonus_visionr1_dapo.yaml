@@ -1,0 +1,28 @@
+defaults:
+  - ppo_megatron_trainer_dense_cot_qwen3vl_process_reward_qwen_gpt_step_bonus
+  - _self_
+
+reward:
+  custom_reward_function:
+    reward_kwargs:
+      # VisionR1_DAPO train set step stats:
+      # - vision_r1_rl: p50=5, p75=6, p90=7, p95=9
+      # - dapo_math_17k: p50=9, p75=13, p90=18, p95=23
+      process_gamma: 1.5
+      step_bonus_lambda: 0.3
+      deep_exploration_bonus_lambda: 0.12
+      deep_exploration_step_cap: 4
+      deep_exploration_difficulty_threshold: 8
+      deep_exploration_difficulty_cap: 18
+      deep_exploration_difficulty_by_source:
+        vision_r1_rl:
+          threshold: 6
+          cap: 9
+        dapo_math_17k:
+          threshold: 10
+          cap: 18
+      hallucination_penalty_ratio: 0.5
+
+data:
+  train_files: data/VisionR1_DAPO/train.parquet
+  val_files: data/VisionR1_DAPO/test.parquet

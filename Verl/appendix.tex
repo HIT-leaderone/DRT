@@ -1,0 +1,77 @@
+\appendix
+\section{VERL Hyperparameters and Judge Prompts}\label{app:verl_details}
+
+\paragraph{SFT Details.}
+We adopt full-parameter fine-tuning without freezing the language model.
+The visual encoder is frozen, while the multimodal aligner remains trainable, with a reduced learning rate multiplier of 0.2 applied to the vision branch.
+We use Adam~\cite{kingma2015adam} with zero weight decay and a cosine learning rate schedule, where the peak learning rate is $6.0 \times 10^{-6}$ and the minimum learning rate is $1.0 \times 10^{-6}$.
+Training is conducted with a micro-batch size of 1 and a global batch size of 32, using dynamic batching with a maximum sequence length of 16{,}384 tokens.
+We employ Flash Attention for efficiency and use tensor parallelism of 8 and context parallelism of 4.
+Our implementation is based on the \texttt{ms-swift} framework built on Megatron-LM with DeepSpeed support, with activation recomputation and memory-efficient optimizations enabled.
+We use a streaming dataloader with multiple workers and perform periodic evaluation on MathVista, MathVision, MathVerse, and LogicVista.
+
+\paragraph{VERL RL Details.}
+We implement the RL stage in \texttt{verl} using the Megatron actor backend and vLLM rollout.
+The policy is initialized from the 800-iteration SFT checkpoint of Qwen3-VL-8B-Instruct and optimized with GRPO by setting \texttt{adv\_estimator=grpo}.
+In the main run, we use a global prompt batch size of 512, group size $G=16$, one policy epoch per update, PPO mini-batch size 128, and micro-batch size 1 per GPU.
+The actor learning rate is $1.0 \times 10^{-6}$.
+We enable KL loss against a frozen reference model with coefficient 0.01 using \texttt{low\_var\_kl}, and disable entropy regularization.
+Rollout sampling uses temperature 1.0, top-$p$ 1.0, and top-$k=-1$.
+The maximum prompt and response lengths are both set to 2{,}048 tokens.
+We enable dynamic batching and set the maximum actor/ref/log-prob token budget to 4{,}096 tokens per GPU.
+Training is conducted on 8 GPUs on a single node; actor training uses Megatron tensor/pipeline/context parallelism of 2/2/1, while rollout generation uses tensor parallelism of 4.
+For memory efficiency, we enable parameter, optimizer, and gradient offloading together with activation recomputation.
+
+\paragraph{Reward and Judge Details.}
+The reward judge is \texttt{Qwen3-235B-A22B-Instruct-2507} served by vLLM in a separate resource pool with tensor parallelism 8 and GPU memory utilization 0.90.
+For judge inference, we set the maximum prompt length, response length, and model context length to 12{,}000, 512, and 12{,}800 tokens, respectively, with \texttt{max\_num\_seqs}=16 and \texttt{max\_num\_batched\_tokens}=65{,}536.
+We use deterministic decoding (\texttt{temperature}=0) for the step-bonus judge.
+In the custom reward, the main answer reward is 0.9, the partial-credit weight is 0.8 with \texttt{process\_gamma}=1.5, the style bonus is 0.1, the density penalty is 0.05 with \texttt{max\_segment\_len}=15, the step bonus weight is 0.3, the deep-exploration bonus weight is 0.12, the deep-exploration cap is 4, and the hallucination penalty ratio is 0.5.
+For deep exploration, the difficulty threshold/cap is set to 6/9 for Vision-R1-RL and 10/18 for DAPO-Math-17K, where $\rho_{\text{diff}}$ is set to 0 when the number of reference steps $N_{\text{ref}}$ does not exceed the threshold, increases linearly from 0 to 1 as $N_{\text{ref}}$ grows from the threshold to the cap, and saturates at 1 once $N_{\text{ref}}$ reaches the cap.
+
+\subsection{Policy Prompts}
+\paragraph{Vision-language DRT prompt.}
+\begin{promptbox}[Vision-language Dense Reasoning Trace]
+\{question\}\\
+Analyze this question to provide a **Dense Cognitive Trace**.\\
+--- Requirements ---\\
+1. **Format**: Use a **telegraphic style** (concise phrases, arrows '-\textgreater{}', symbols). NO conversational fillers.\\
+2. **Structure**: Your response MUST strictly follow this XML structure:\\
+\textless{}visual\textgreater{}...concise visual evidence...\textless{}/visual\textgreater{}\textless{}think\textgreater{}...[Priors] -\textgreater{} ...compressed reasoning...\textless{}/think\textgreater{}\textless{}answer\textgreater{}...final answer...\textless{}/answer\textgreater{}\\
+3. **Content**: Deconstruct into visual observations, logical reasoning, and the final answer.
+\end{promptbox}
+
+\paragraph{Text-only DRT prompt.}
+For vision-language samples, we use the same DRT prompt shown above.
+For text-only DAPO samples, we replace the \texttt{<visual>} block with a textual evidence block:
+
+\begin{promptbox}[Text-only Dense Reasoning Trace]
+\{question\}\\
+Analyze the given text input to provide a **Dense Cognitive Trace**.\\
+--- Requirements ---\\
+1. **Format**: Use a **telegraphic style** (concise phrases, arrows '-\textgreater{}', symbols). NO conversational fillers.\\
+2. **Structure**: Your response MUST strictly follow this XML structure:\\
+\textless{}evidence\textgreater{}...key textual evidence, constraints, or cues...\textless{}/evidence\textgreater{}\textless{}think\textgreater{}...[Priors] -\textgreater{} ...compressed reasoning...\textless{}/think\textgreater{}\textless{}answer\textgreater{}...final answer...\textless{}/answer\textgreater{}\\
+3. **Content**: Extract the relevant textual evidence, infer the necessary logic, and provide the final answer.
+\end{promptbox}
+
+\subsection{LLM Judge Prompt for Step-Bonus Reward}
+\begin{promptbox}[Step-Bonus Judge Prompt]
+You are a strict Math Teacher grading a student's reasoning for a \{problem\_type\}.\\
+**Original Problem:**\\
+\{problem\_text\}\\
+**Reference Solution (Standard Steps):**\\
+\{gt\_steps\_str\}\\
+**Student's Thinking Process:**\\
+\{pred\_think\}\\
+**Student's Final Answer:**\\
+\{pred\_final\}\\
+**Grading Tasks:**\\
+1. **Calculate \texttt{matched\_step\_count}**: a reference step is counted as matched if the student reaches the corresponding correct logic or intermediate result; matched steps are counted even if hallucination exists, which is tracked separately.\\
+2. **Calculate \texttt{effective\_reasoning\_step\_count}**: count distinct, non-trivial, solution-advancing reasoning steps; do not count repetition, filler, paraphrases, or artificial over-splitting.\\
+3. **Calculate \texttt{deep\_exploration\_step\_count}**: count only genuinely useful extra exploration beyond the minimal solution path; every deep-exploration step must also be included in \texttt{effective\_reasoning\_step\_count}.\\
+4. **Do not estimate target counts**: the reward code uses the number of reference steps as the target for effective reasoning steps and a fixed external cap for deep exploration.\\
+5. **Determine hallucination inside matched steps only**: report \texttt{hallucinated\_matched\_step\_count} and \texttt{has\_hallucination\_in\_matched\_steps}.\\
+6. **Output JSON only** with the keys \texttt{matched\_step\_count}, \texttt{total\_reference\_steps}, \texttt{effective\_reasoning\_step\_count}, \texttt{deep\_exploration\_step\_count}, \texttt{hallucinated\_matched\_step\_count}, \texttt{has\_hallucination\_in\_matched\_steps}, and \texttt{reason}.
+\end{promptbox}
+In the guided-JSON variant, we enforce the same seven fields as a decoding-time JSON schema.

@@ -1,0 +1,1035 @@
+id,l1,l2,useful_ratio,waste_label
+0,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+1,Correct,N/A,0.7,Overly Verbose but Largely Correct
+2,Correct,N/A,0.6,Overly Verbose but Largely Correct
+3,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Hallucinated or Incorrect Reasoning
+4,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+5,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+6,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+7,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Speculative Guessing and Coordinate Padding
+8,Correct,N/A,0.7,Minor Redundancy and Repetition
+9,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+10,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+11,Correct,N/A,0.3,Overly Verbose but Largely Correct
+12,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Irrelevant or Off-Task Discussion
+13,Correct,N/A,0.7,Minor Redundancy and Repetition
+14,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.1,Hallucinated or Incorrect Reasoning
+15,Correct,N/A,0.4,Irrelevant or Off-Task Discussion
+16,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucinated or Incorrect Reasoning
+17,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Overly Verbose but Largely Correct
+18,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+19,Correct,N/A,0.5,Overly Verbose but Largely Correct
+20,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+21,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucinated or Incorrect Reasoning
+22,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+23,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+24,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+25,Correct,N/A,0.4,Overly Verbose but Largely Correct
+26,Correct,N/A,0.05,Minor Redundancy and Repetition
+27,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+28,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.1,Hallucinated or Incorrect Reasoning
+29,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+30,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+31,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Overly Verbose but Largely Correct
+32,Correct,N/A,0.4,Minor Redundancy and Repetition
+33,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.4,Hallucinated or Incorrect Reasoning
+34,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+35,Correct,N/A,0.4,Hallucinated or Incorrect Reasoning
+36,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+37,Correct,N/A,0.4,Speculative Guessing and Coordinate Padding
+38,Correct,N/A,0.8,Overly Verbose but Largely Correct
+39,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+40,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Overly Verbose but Largely Correct
+41,Correct,N/A,0.6,Overly Verbose but Largely Correct
+42,Correct,N/A,0.5,Overly Verbose but Largely Correct
+43,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+44,Correct,N/A,0.4,Overly Verbose but Largely Correct
+45,Correct,N/A,0.4,Hallucinated or Incorrect Reasoning
+46,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+47,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Speculative Guessing and Coordinate Padding
+48,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+49,Correct,N/A,0.8,Overly Verbose but Largely Correct
+50,Correct,N/A,0.7,Overly Verbose but Largely Correct
+51,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+52,Correct,N/A,0.6,Hallucinated or Incorrect Reasoning
+53,Correct,N/A,0.6,Overly Verbose but Largely Correct
+54,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Irrelevant or Off-Task Discussion
+55,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+56,Correct,N/A,0.8,Overly Verbose but Largely Correct
+57,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Hallucinated or Incorrect Reasoning
+58,Correct,N/A,0.4,Minor Redundancy and Repetition
+59,Correct,N/A,0.7,Minor Redundancy and Repetition
+60,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Minor Redundancy and Repetition
+61,Correct,N/A,0.6,Minor Redundancy and Repetition
+62,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+63,Correct,N/A,0.8,Overly Verbose but Largely Correct
+64,Correct,N/A,0.9,Overly Verbose but Largely Correct
+65,Correct,N/A,0.6,Overly Verbose but Largely Correct
+66,Correct,N/A,0.9,Minor Redundancy and Repetition
+67,Correct,N/A,0.7,Overly Verbose but Largely Correct
+68,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Speculative Guessing and Coordinate Padding
+69,Visual Perception Failure,Object Presence / State Tracking Error,0.9,Minor Redundancy and Repetition
+70,Correct,N/A,0.6,Overly Verbose but Largely Correct
+71,Correct,N/A,0.3,Speculative Guessing and Coordinate Padding
+72,Correct,N/A,0.9,Minor Redundancy and Repetition
+73,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Speculative Guessing and Coordinate Padding
+74,Correct,N/A,0.7,Overly Verbose but Largely Correct
+75,Correct,N/A,0.9,Minor Redundancy and Repetition
+76,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Hallucinated or Incorrect Reasoning
+77,Correct,N/A,0.3,Hallucinated or Incorrect Reasoning
+78,Correct,N/A,0.7,Overly Verbose but Largely Correct
+79,Correct,N/A,0.8,Minor Redundancy and Repetition
+80,Correct,N/A,0.85,Minor Redundancy and Repetition
+81,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Hallucinated or Incorrect Reasoning
+82,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.25,Minor Redundancy and Repetition
+83,Visual Perception Failure,Action / Event Misperception,0.15,Minor Redundancy and Repetition
+84,Correct,N/A,0.5,Overly Verbose but Largely Correct
+85,Correct,N/A,0.9,Minor Redundancy and Repetition
+86,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+87,Correct,N/A,0.8,Overly Verbose but Largely Correct
+88,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Speculative Guessing and Coordinate Padding
+89,Correct,N/A,0.6,Overly Verbose but Largely Correct
+90,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+91,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+92,Correct,N/A,0.7,Overly Verbose but Largely Correct
+93,Correct,N/A,0.6,Overly Verbose but Largely Correct
+94,Correct,N/A,0.7,Overly Verbose but Largely Correct
+95,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.25,Minor Redundancy and Repetition
+96,Correct,N/A,0.9,Minor Redundancy and Repetition
+97,Correct,N/A,0.7,Overly Verbose but Largely Correct
+98,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+99,Correct,N/A,0.7,Overly Verbose but Largely Correct
+100,Correct,N/A,0.9,Minor Redundancy and Repetition
+101,Correct,N/A,0.7,Minor Redundancy and Repetition
+102,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+103,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+104,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+105,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Hallucinated or Incorrect Reasoning
+106,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+107,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+108,Correct,N/A,0.7,Overly Verbose but Largely Correct
+109,Correct,N/A,0.7,Overly Verbose but Largely Correct
+110,Correct,N/A,0.6,Speculative Guessing and Coordinate Padding
+111,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+112,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.05,Speculative Guessing and Coordinate Padding
+113,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.3,Hallucinated or Incorrect Reasoning
+114,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+115,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant or Off-Task Discussion
+116,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+117,Correct,N/A,0.7,Minor Redundancy and Repetition
+118,Correct,N/A,0.9,Minor Redundancy and Repetition
+119,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,"Refusal, Denial, or Non-Engagement"
+120,Correct,N/A,0.9,Overly Verbose but Largely Correct
+121,Correct,N/A,0.7,Overly Verbose but Largely Correct
+122,Correct,N/A,0.7,Overly Verbose but Largely Correct
+123,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucinated or Incorrect Reasoning
+124,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+125,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Speculative Guessing and Coordinate Padding
+126,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+127,Correct,N/A,0.8,Minor Redundancy and Repetition
+128,Correct,N/A,0.6,Overly Verbose but Largely Correct
+129,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Hallucinated or Incorrect Reasoning
+130,Correct,N/A,0.7,Overly Verbose but Largely Correct
+131,Correct,N/A,0.5,Overly Verbose but Largely Correct
+132,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Hallucinated or Incorrect Reasoning
+133,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+134,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Overly Verbose but Largely Correct
+135,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+136,Correct,N/A,0.8,Overly Verbose but Largely Correct
+137,Correct,N/A,0.8,Minor Redundancy and Repetition
+138,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant or Off-Task Discussion
+139,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+140,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Overly Verbose but Largely Correct
+141,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Overly Verbose but Largely Correct
+142,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+143,Correct,N/A,0.7,Minor Redundancy and Repetition
+144,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucinated or Incorrect Reasoning
+145,Correct,N/A,0.8,Overly Verbose but Largely Correct
+146,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+147,Correct,N/A,0.7,Overly Verbose but Largely Correct
+148,Correct,N/A,0.9,Minor Redundancy and Repetition
+149,Correct,N/A,0.6,Minor Redundancy and Repetition
+150,Correct,N/A,0.4,Hallucinated or Incorrect Reasoning
+151,Correct,N/A,0.8,Overly Verbose but Largely Correct
+152,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+153,Correct,N/A,0.8,Minor Redundancy and Repetition
+154,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucinated or Incorrect Reasoning
+155,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+156,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.15,"Refusal, Denial, or Non-Engagement"
+157,Correct,N/A,0.4,Speculative Guessing and Coordinate Padding
+158,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.01,Hallucinated or Incorrect Reasoning
+159,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Hallucinated or Incorrect Reasoning
+160,Correct,N/A,0.05,Overly Verbose but Largely Correct
+161,Correct,N/A,0.4,Speculative Guessing and Coordinate Padding
+162,Correct,N/A,0.3,Speculative Guessing and Coordinate Padding
+163,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant or Off-Task Discussion
+164,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+165,Correct,N/A,0.7,Minor Redundancy and Repetition
+166,Correct,N/A,0.8,Minor Redundancy and Repetition
+167,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.3,Hallucinated or Incorrect Reasoning
+168,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+169,Correct,N/A,0.8,Minor Redundancy and Repetition
+170,Correct,N/A,0.6,Overly Verbose but Largely Correct
+171,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+172,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Hallucinated or Incorrect Reasoning
+173,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Hallucinated or Incorrect Reasoning
+174,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+175,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.1,Irrelevant or Off-Task Discussion
+176,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,"Refusal, Denial, or Non-Engagement"
+177,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+178,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Hallucinated or Incorrect Reasoning
+179,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+180,Correct,N/A,0.3,Overly Verbose but Largely Correct
+181,Correct,N/A,0.8,Minor Redundancy and Repetition
+182,Correct,N/A,0.8,Overly Verbose but Largely Correct
+183,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+184,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+185,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+186,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Irrelevant or Off-Task Discussion
+187,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Irrelevant or Off-Task Discussion
+188,Correct,N/A,0.4,Speculative Guessing and Coordinate Padding
+189,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Speculative Guessing and Coordinate Padding
+190,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+191,Correct,N/A,0.7,Minor Redundancy and Repetition
+192,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+193,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucinated or Incorrect Reasoning
+194,Correct,N/A,0.6,Overly Verbose but Largely Correct
+195,Correct,N/A,0.6,Hallucinated or Incorrect Reasoning
+196,Correct,N/A,1.0,None
+197,Correct,N/A,0.9,Minor Redundancy and Repetition
+198,Correct,N/A,0.6,Overly Verbose but Largely Correct
+199,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+200,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+201,Correct,N/A,0.9,Minor Redundancy and Repetition
+202,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+203,Correct,N/A,0.9,Minor Redundancy and Repetition
+204,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+205,Correct,N/A,0.7,Minor Redundancy and Repetition
+206,Correct,N/A,0.8,Minor Redundancy and Repetition
+207,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+208,Correct,N/A,0.7,Overly Verbose but Largely Correct
+209,Correct,N/A,0.8,Minor Redundancy and Repetition
+210,Correct,N/A,0.9,Overly Verbose but Largely Correct
+211,Correct,N/A,0.8,Minor Redundancy and Repetition
+212,Correct,N/A,0.9,Minor Redundancy and Repetition
+213,Correct,N/A,0.4,Minor Redundancy and Repetition
+214,Correct,N/A,0.8,Overly Verbose but Largely Correct
+215,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Hallucinated or Incorrect Reasoning
+216,Correct,N/A,0.8,Overly Verbose but Largely Correct
+217,Correct,N/A,0.9,Overly Verbose but Largely Correct
+218,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+219,Correct,N/A,0.8,Irrelevant or Off-Task Discussion
+220,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Irrelevant or Off-Task Discussion
+221,Correct,N/A,0.8,Overly Verbose but Largely Correct
+222,Correct,N/A,0.6,Overly Verbose but Largely Correct
+223,Correct,N/A,0.7,Minor Redundancy and Repetition
+224,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Irrelevant or Off-Task Discussion
+225,Correct,N/A,0.9,Minor Redundancy and Repetition
+226,Correct,N/A,0.9,Minor Redundancy and Repetition
+227,Correct,N/A,0.25,Minor Redundancy and Repetition
+228,Correct,N/A,0.5,Speculative Guessing and Coordinate Padding
+229,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+230,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Hallucinated or Incorrect Reasoning
+231,Correct,N/A,0.7,Overly Verbose but Largely Correct
+232,Correct,N/A,0.6,Overly Verbose but Largely Correct
+233,Correct,N/A,0.9,Minor Redundancy and Repetition
+234,Correct,N/A,0.7,Overly Verbose but Largely Correct
+235,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.15,Minor Redundancy and Repetition
+236,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+237,Correct,N/A,0.95,Minor Redundancy and Repetition
+238,Correct,N/A,0.8,Overly Verbose but Largely Correct
+239,Correct,N/A,0.9,Minor Redundancy and Repetition
+240,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucinated or Incorrect Reasoning
+241,Correct,N/A,0.6,Overly Verbose but Largely Correct
+242,Correct,N/A,0.7,Irrelevant or Off-Task Discussion
+243,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+244,Correct,N/A,0.8,Overly Verbose but Largely Correct
+245,Correct,N/A,0.8,Overly Verbose but Largely Correct
+246,Correct,N/A,0.8,Overly Verbose but Largely Correct
+247,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Hallucinated or Incorrect Reasoning
+248,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+249,Correct,N/A,0.7,Overly Verbose but Largely Correct
+250,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+251,Correct,N/A,0.9,Minor Redundancy and Repetition
+252,Correct,N/A,0.9,Minor Redundancy and Repetition
+253,Correct,N/A,0.8,Overly Verbose but Largely Correct
+254,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Hallucinated or Incorrect Reasoning
+255,Correct,N/A,0.9,Minor Redundancy and Repetition
+256,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Hallucinated or Incorrect Reasoning
+257,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+258,Correct,N/A,0.8,Overly Verbose but Largely Correct
+259,Correct,N/A,0.7,Minor Redundancy and Repetition
+260,Correct,N/A,0.25,Minor Redundancy and Repetition
+261,Correct,N/A,0.9,Irrelevant or Off-Task Discussion
+262,Correct,N/A,0.9,Minor Redundancy and Repetition
+263,Correct,N/A,0.9,Minor Redundancy and Repetition
+264,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+265,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.3,Hallucinated or Incorrect Reasoning
+266,Correct,N/A,0.7,Speculative Guessing and Coordinate Padding
+267,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+268,Correct,N/A,0.7,Overly Verbose but Largely Correct
+269,Correct,N/A,0.6,Overly Verbose but Largely Correct
+270,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,"Refusal, Denial, or Non-Engagement"
+271,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Hallucinated or Incorrect Reasoning
+272,Correct,N/A,0.8,Overly Verbose but Largely Correct
+273,Correct,N/A,0.7,Speculative Guessing and Coordinate Padding
+274,Correct,N/A,0.9,Speculative Guessing and Coordinate Padding
+275,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+276,Correct,N/A,0.9,Minor Redundancy and Repetition
+277,Correct,N/A,0.8,Overly Verbose but Largely Correct
+278,Correct,N/A,0.9,Minor Redundancy and Repetition
+279,Correct,N/A,0.7,Overly Verbose but Largely Correct
+280,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+281,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+282,Correct,N/A,0.7,Overly Verbose but Largely Correct
+283,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Overly Verbose but Largely Correct
+284,Correct,N/A,0.9,Minor Redundancy and Repetition
+285,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.4,Hallucinated or Incorrect Reasoning
+286,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+287,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+288,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+289,Correct,N/A,0.7,Minor Redundancy and Repetition
+290,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Hallucinated or Incorrect Reasoning
+291,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+292,Correct,N/A,0.9,Overly Verbose but Largely Correct
+293,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+294,Correct,N/A,0.6,Overly Verbose but Largely Correct
+295,Correct,N/A,0.9,Minor Redundancy and Repetition
+296,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+297,Correct,N/A,0.9,Minor Redundancy and Repetition
+298,Correct,N/A,0.9,Minor Redundancy and Repetition
+299,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+300,Correct,N/A,0.6,Overly Verbose but Largely Correct
+301,Correct,N/A,0.7,Overly Verbose but Largely Correct
+302,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Irrelevant or Off-Task Discussion
+303,Correct,N/A,0.7,Minor Redundancy and Repetition
+304,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Hallucinated or Incorrect Reasoning
+305,Correct,N/A,0.8,Minor Redundancy and Repetition
+306,Correct,N/A,0.6,Overly Verbose but Largely Correct
+307,Correct,N/A,0.9,Minor Redundancy and Repetition
+308,Correct,N/A,0.6,Overly Verbose but Largely Correct
+309,Correct,N/A,0.9,Minor Redundancy and Repetition
+310,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+311,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+312,Correct,N/A,0.7,Overly Verbose but Largely Correct
+313,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Irrelevant or Off-Task Discussion
+314,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+315,Correct,N/A,0.7,Minor Redundancy and Repetition
+316,Correct,N/A,0.8,Minor Redundancy and Repetition
+317,Correct,N/A,0.8,Minor Redundancy and Repetition
+318,Correct,N/A,0.7,Overly Verbose but Largely Correct
+319,Correct,N/A,0.9,Minor Redundancy and Repetition
+320,Correct,N/A,0.9,Minor Redundancy and Repetition
+321,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+322,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Hallucinated or Incorrect Reasoning
+323,Correct,N/A,0.6,Overly Verbose but Largely Correct
+324,Correct,N/A,0.8,Overly Verbose but Largely Correct
+325,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+326,Correct,N/A,0.9,Overly Verbose but Largely Correct
+327,Correct,N/A,0.8,Overly Verbose but Largely Correct
+328,Correct,N/A,0.9,Overly Verbose but Largely Correct
+329,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+330,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Hallucinated or Incorrect Reasoning
+331,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+332,Correct,N/A,0.7,Overly Verbose but Largely Correct
+333,Correct,N/A,0.8,Overly Verbose but Largely Correct
+334,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+335,Correct,N/A,0.7,Overly Verbose but Largely Correct
+336,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+337,Correct,N/A,0.6,Overly Verbose but Largely Correct
+338,Correct,N/A,0.6,Overly Verbose but Largely Correct
+339,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+340,Visual Perception Failure,Object Presence / State Tracking Error,0.5,Hallucinated or Incorrect Reasoning
+341,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Overly Verbose but Largely Correct
+342,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+343,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Hallucinated or Incorrect Reasoning
+344,Correct,N/A,0.15,Minor Redundancy and Repetition
+345,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Speculative Guessing and Coordinate Padding
+346,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.3,Hallucinated or Incorrect Reasoning
+347,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,"Refusal, Denial, or Non-Engagement"
+348,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Hallucinated or Incorrect Reasoning
+349,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,"Refusal, Denial, or Non-Engagement"
+350,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Irrelevant or Off-Task Discussion
+351,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,Speculative Guessing and Coordinate Padding
+352,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.3,Hallucinated or Incorrect Reasoning
+353,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.2,Overly Verbose but Largely Correct
+354,Correct,N/A,0.4,Speculative Guessing and Coordinate Padding
+355,Visual Perception Failure,Object / Attribute Misrecognition,0.3,"Refusal, Denial, or Non-Engagement"
+356,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+357,Correct,N/A,0.8,Minor Redundancy and Repetition
+358,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.25,Overly Verbose but Largely Correct
+359,Visual Perception Failure,Object Presence / State Tracking Error,0.05,Hallucinated or Incorrect Reasoning
+360,Correct,N/A,0.6,Minor Redundancy and Repetition
+361,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Hallucinated or Incorrect Reasoning
+362,Correct,N/A,0.7,Irrelevant or Off-Task Discussion
+363,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+364,Correct,N/A,0.8,Minor Redundancy and Repetition
+365,Correct,N/A,0.9,Minor Redundancy and Repetition
+366,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+367,Visual Perception Failure,Action / Event Misperception,0.3,"Refusal, Denial, or Non-Engagement"
+368,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,Overly Verbose but Largely Correct
+369,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+370,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Hallucinated or Incorrect Reasoning
+371,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+372,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+373,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,Hallucinated or Incorrect Reasoning
+374,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+375,Correct,N/A,0.9,Minor Redundancy and Repetition
+376,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+377,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucinated or Incorrect Reasoning
+378,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant or Off-Task Discussion
+379,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+380,Correct,N/A,0.8,Minor Redundancy and Repetition
+381,Correct,N/A,0.4,Irrelevant or Off-Task Discussion
+382,Correct,N/A,0.9,Minor Redundancy and Repetition
+383,Correct,N/A,0.9,Minor Redundancy and Repetition
+384,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+385,Correct,N/A,0.6,Overly Verbose but Largely Correct
+386,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.3,Irrelevant or Off-Task Discussion
+387,Correct,N/A,0.8,Minor Redundancy and Repetition
+388,Correct,N/A,0.9,Minor Redundancy and Repetition
+389,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Hallucinated or Incorrect Reasoning
+390,Correct,N/A,0.6,Overly Verbose but Largely Correct
+391,Correct,N/A,0.8,Minor Redundancy and Repetition
+392,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant or Off-Task Discussion
+393,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+394,Correct,N/A,0.7,Minor Redundancy and Repetition
+395,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+396,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.25,Hallucinated or Incorrect Reasoning
+397,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+398,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Overly Verbose but Largely Correct
+399,Correct,N/A,0.4,Overly Verbose but Largely Correct
+400,Correct,N/A,0.6,Overly Verbose but Largely Correct
+401,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+402,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant or Off-Task Discussion
+403,Correct,N/A,0.9,Minor Redundancy and Repetition
+404,Correct,N/A,0.4,Irrelevant or Off-Task Discussion
+405,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Hallucinated or Incorrect Reasoning
+406,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucinated or Incorrect Reasoning
+407,Correct,N/A,0.7,Minor Redundancy and Repetition
+408,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.25,Speculative Guessing and Coordinate Padding
+409,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+410,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.5,Speculative Guessing and Coordinate Padding
+411,Correct,N/A,0.4,Overly Verbose but Largely Correct
+412,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.15,Overly Verbose but Largely Correct
+413,Correct,N/A,0.6,Speculative Guessing and Coordinate Padding
+414,Correct,N/A,0.9,Minor Redundancy and Repetition
+415,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+416,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant or Off-Task Discussion
+417,Correct,N/A,0.6,Overly Verbose but Largely Correct
+418,Correct,N/A,0.7,Minor Redundancy and Repetition
+419,Correct,N/A,0.8,Minor Redundancy and Repetition
+420,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Speculative Guessing and Coordinate Padding
+421,Correct,N/A,0.4,Overly Verbose but Largely Correct
+422,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Hallucinated or Incorrect Reasoning
+423,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Minor Redundancy and Repetition
+424,Correct,N/A,0.8,Overly Verbose but Largely Correct
+425,Correct,N/A,0.9,Minor Redundancy and Repetition
+426,Correct,N/A,0.7,Overly Verbose but Largely Correct
+427,Correct,N/A,0.9,Minor Redundancy and Repetition
+428,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+429,Correct,N/A,0.8,Overly Verbose but Largely Correct
+430,Correct,N/A,0.7,Overly Verbose but Largely Correct
+431,Correct,N/A,0.7,Overly Verbose but Largely Correct
+432,Correct,N/A,0.9,Overly Verbose but Largely Correct
+433,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+434,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+435,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,"Refusal, Denial, or Non-Engagement"
+436,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+437,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+438,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant or Off-Task Discussion
+439,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Speculative Guessing and Coordinate Padding
+440,Correct,N/A,0.4,Minor Redundancy and Repetition
+441,Correct,N/A,0.8,Minor Redundancy and Repetition
+442,Correct,N/A,0.8,Minor Redundancy and Repetition
+443,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+444,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant or Off-Task Discussion
+445,Correct,N/A,0.1,Minor Redundancy and Repetition
+446,Correct,N/A,0.6,Minor Redundancy and Repetition
+447,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+448,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+449,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+450,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+451,Correct,N/A,0.7,Minor Redundancy and Repetition
+452,Correct,N/A,0.6,Minor Redundancy and Repetition
+453,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+454,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.5,Hallucinated or Incorrect Reasoning
+455,Correct,N/A,0.7,Minor Redundancy and Repetition
+456,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Irrelevant or Off-Task Discussion
+457,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+458,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+459,Correct,N/A,0.3,Overly Verbose but Largely Correct
+460,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,Irrelevant or Off-Task Discussion
+461,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Overly Verbose but Largely Correct
+462,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+463,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.1,Irrelevant or Off-Task Discussion
+464,Visual Perception Failure,Object / Attribute Misrecognition,0.1,"Refusal, Denial, or Non-Engagement"
+465,Correct,N/A,0.4,Overly Verbose but Largely Correct
+466,Correct,N/A,0.5,Overly Verbose but Largely Correct
+467,Correct,N/A,0.9,Minor Redundancy and Repetition
+468,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+469,Correct,N/A,0.7,Minor Redundancy and Repetition
+470,Correct,N/A,0.95,Minor Redundancy and Repetition
+471,Correct,N/A,0.7,Overly Verbose but Largely Correct
+472,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+473,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+474,Correct,N/A,0.7,Overly Verbose but Largely Correct
+475,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+476,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+477,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Speculative Guessing and Coordinate Padding
+478,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+479,Correct,N/A,0.6,Minor Redundancy and Repetition
+480,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,"Refusal, Denial, or Non-Engagement"
+481,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+482,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant or Off-Task Discussion
+483,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+484,Correct,N/A,0.4,Overly Verbose but Largely Correct
+485,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+486,Correct,N/A,0.4,Overly Verbose but Largely Correct
+487,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+488,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Speculative Guessing and Coordinate Padding
+489,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Overly Verbose but Largely Correct
+490,Correct,N/A,0.4,Overly Verbose but Largely Correct
+491,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant or Off-Task Discussion
+492,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+493,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+494,Correct,N/A,0.5,Overly Verbose but Largely Correct
+495,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.15,Minor Redundancy and Repetition
+496,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+497,Correct,N/A,0.7,Overly Verbose but Largely Correct
+498,Correct,N/A,0.6,Overly Verbose but Largely Correct
+499,Correct,N/A,0.4,Overly Verbose but Largely Correct
+500,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+501,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant or Off-Task Discussion
+502,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Overly Verbose but Largely Correct
+503,Correct,N/A,0.6,Minor Redundancy and Repetition
+504,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+505,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+506,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+507,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant or Off-Task Discussion
+508,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant or Off-Task Discussion
+509,Correct,N/A,0.4,Minor Redundancy and Repetition
+510,Correct,N/A,0.4,Speculative Guessing and Coordinate Padding
+511,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Speculative Guessing and Coordinate Padding
+512,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.05,Minor Redundancy and Repetition
+513,Visual Perception Failure,Object Presence / State Tracking Error,0.3,"Refusal, Denial, or Non-Engagement"
+514,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Speculative Guessing and Coordinate Padding
+515,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucinated or Incorrect Reasoning
+516,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+517,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+518,Visual Perception Failure,Object / Attribute Misrecognition,0.2,"Refusal, Denial, or Non-Engagement"
+519,Visual Perception Failure,Action / Event Misperception,0.4,Irrelevant or Off-Task Discussion
+520,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+521,Correct,N/A,0.4,Overly Verbose but Largely Correct
+522,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant or Off-Task Discussion
+523,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+524,Correct,N/A,0.7,Overly Verbose but Largely Correct
+525,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+526,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+527,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.02,Minor Redundancy and Repetition
+528,Correct,N/A,0.05,Minor Redundancy and Repetition
+529,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Hallucinated or Incorrect Reasoning
+530,Correct,N/A,0.6,Overly Verbose but Largely Correct
+531,Correct,N/A,0.7,Overly Verbose but Largely Correct
+532,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Hallucinated or Incorrect Reasoning
+533,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+534,Correct,N/A,0.6,Overly Verbose but Largely Correct
+535,Correct,N/A,0.7,Overly Verbose but Largely Correct
+536,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.1,Hallucinated or Incorrect Reasoning
+537,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+538,Correct,N/A,0.8,Minor Redundancy and Repetition
+539,Correct,N/A,0.5,Overly Verbose but Largely Correct
+540,Correct,N/A,0.7,Minor Redundancy and Repetition
+541,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+542,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+543,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+544,Correct,N/A,0.4,Irrelevant or Off-Task Discussion
+545,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Overly Verbose but Largely Correct
+546,Correct,N/A,0.4,Minor Redundancy and Repetition
+547,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucinated or Incorrect Reasoning
+548,Correct,N/A,0.7,Irrelevant or Off-Task Discussion
+549,Correct,N/A,0.8,Minor Redundancy and Repetition
+550,Correct,N/A,0.7,Overly Verbose but Largely Correct
+551,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+552,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+553,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Speculative Guessing and Coordinate Padding
+554,Correct,N/A,0.7,Overly Verbose but Largely Correct
+555,Correct,N/A,0.9,None
+556,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Speculative Guessing and Coordinate Padding
+557,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,Overly Verbose but Largely Correct
+558,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Overly Verbose but Largely Correct
+559,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant or Off-Task Discussion
+560,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Irrelevant or Off-Task Discussion
+561,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+562,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+563,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+564,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Hallucinated or Incorrect Reasoning
+565,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+566,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+567,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.7,Hallucinated or Incorrect Reasoning
+568,Correct,N/A,0.9,Overly Verbose but Largely Correct
+569,Correct,N/A,0.9,Overly Verbose but Largely Correct
+570,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+571,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+572,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+573,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+574,Correct,N/A,0.7,Overly Verbose but Largely Correct
+575,Correct,N/A,0.8,Overly Verbose but Largely Correct
+576,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+577,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.2,Speculative Guessing and Coordinate Padding
+578,Correct,N/A,0.9,Minor Redundancy and Repetition
+579,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+580,Correct,N/A,0.9,Minor Redundancy and Repetition
+581,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.2,Hallucinated or Incorrect Reasoning
+582,Correct,N/A,0.9,Minor Redundancy and Repetition
+583,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+584,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+585,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+586,Correct,N/A,0.9,Minor Redundancy and Repetition
+587,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+588,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+589,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant or Off-Task Discussion
+590,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant or Off-Task Discussion
+591,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+592,Correct,N/A,0.8,Minor Redundancy and Repetition
+593,Correct,N/A,0.9,Minor Redundancy and Repetition
+594,Correct,N/A,0.9,Minor Redundancy and Repetition
+595,Correct,N/A,0.9,Minor Redundancy and Repetition
+596,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+597,Correct,N/A,0.6,Minor Redundancy and Repetition
+598,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+599,Correct,N/A,0.1,Minor Redundancy and Repetition
+600,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+601,Correct,N/A,0.4,Overly Verbose but Largely Correct
+602,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+603,Correct,N/A,0.6,Overly Verbose but Largely Correct
+604,Correct,N/A,0.5,Minor Redundancy and Repetition
+605,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,"Refusal, Denial, or Non-Engagement"
+606,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+607,Correct,N/A,0.4,Overly Verbose but Largely Correct
+608,Correct,N/A,0.7,Overly Verbose but Largely Correct
+609,Correct,N/A,0.7,Speculative Guessing and Coordinate Padding
+610,Correct,N/A,0.6,Irrelevant or Off-Task Discussion
+611,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+612,Correct,N/A,0.8,Minor Redundancy and Repetition
+613,Correct,N/A,0.6,Minor Redundancy and Repetition
+614,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.05,Irrelevant or Off-Task Discussion
+615,Correct,N/A,0.6,Overly Verbose but Largely Correct
+616,Correct,N/A,0.8,Overly Verbose but Largely Correct
+617,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Irrelevant or Off-Task Discussion
+618,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.7,Hallucinated or Incorrect Reasoning
+619,Correct,N/A,0.6,Overly Verbose but Largely Correct
+620,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Irrelevant or Off-Task Discussion
+621,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.5,Hallucinated or Incorrect Reasoning
+622,Correct,N/A,1.0,None
+623,Correct,N/A,0.9,Minor Redundancy and Repetition
+624,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+625,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+626,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Minor Redundancy and Repetition
+627,Correct,N/A,0.7,Speculative Guessing and Coordinate Padding
+628,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucinated or Incorrect Reasoning
+629,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+630,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.25,Minor Redundancy and Repetition
+631,Correct,N/A,0.8,Minor Redundancy and Repetition
+632,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Irrelevant or Off-Task Discussion
+633,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Irrelevant or Off-Task Discussion
+634,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.15,Minor Redundancy and Repetition
+635,Visual Perception Failure,Object / Attribute Misrecognition,0.5,Irrelevant or Off-Task Discussion
+636,Correct,N/A,0.9,Minor Redundancy and Repetition
+637,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+638,Correct,N/A,0.4,Hallucinated or Incorrect Reasoning
+639,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.05,Minor Redundancy and Repetition
+640,Correct,N/A,0.8,Minor Redundancy and Repetition
+641,Visual Perception Failure,Object Presence / State Tracking Error,0.4,Hallucinated or Incorrect Reasoning
+642,Correct,N/A,0.8,Minor Redundancy and Repetition
+643,Correct,N/A,0.9,Minor Redundancy and Repetition
+644,Correct,N/A,0.8,Minor Redundancy and Repetition
+645,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Irrelevant or Off-Task Discussion
+646,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,Hallucinated or Incorrect Reasoning
+647,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Hallucinated or Incorrect Reasoning
+648,Correct,N/A,0.25,Overly Verbose but Largely Correct
+649,Correct,N/A,0.9,Minor Redundancy and Repetition
+650,Correct,N/A,0.5,Overly Verbose but Largely Correct
+651,Visual Perception Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+652,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+653,Correct,N/A,0.8,Minor Redundancy and Repetition
+654,Correct,N/A,0.9,Minor Redundancy and Repetition
+655,Correct,N/A,0.7,Minor Redundancy and Repetition
+656,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+657,Correct,N/A,0.7,Overly Verbose but Largely Correct
+658,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+659,Correct,N/A,0.95,Overly Verbose but Largely Correct
+660,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+661,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+662,Visual Perception Failure,Action / Event Misperception,0.4,Overly Verbose but Largely Correct
+663,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.15,Minor Redundancy and Repetition
+664,Correct,N/A,0.9,Minor Redundancy and Repetition
+665,Correct,N/A,0.7,Minor Redundancy and Repetition
+666,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+667,Correct,N/A,0.8,Overly Verbose but Largely Correct
+668,Correct,N/A,0.8,Minor Redundancy and Repetition
+669,Correct,N/A,0.9,Minor Redundancy and Repetition
+670,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Hallucinated or Incorrect Reasoning
+671,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+672,Correct,N/A,0.6,Speculative Guessing and Coordinate Padding
+673,Correct,N/A,0.8,Minor Redundancy and Repetition
+674,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Overly Verbose but Largely Correct
+675,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.1,Hallucinated or Incorrect Reasoning
+676,Correct,N/A,0.6,Speculative Guessing and Coordinate Padding
+677,Correct,N/A,0.7,Overly Verbose but Largely Correct
+678,Correct,N/A,0.9,Minor Redundancy and Repetition
+679,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+680,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Speculative Guessing and Coordinate Padding
+681,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+682,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Speculative Guessing and Coordinate Padding
+683,Correct,N/A,0.9,Minor Redundancy and Repetition
+684,Visual Perception Failure,Action / Event Misperception,0.1,Irrelevant or Off-Task Discussion
+685,Correct,N/A,0.4,Overly Verbose but Largely Correct
+686,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+687,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+688,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,"Refusal, Denial, or Non-Engagement"
+689,Correct,N/A,0.7,Overly Verbose but Largely Correct
+690,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant or Off-Task Discussion
+691,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.5,Hallucinated or Incorrect Reasoning
+692,Correct,N/A,0.4,Speculative Guessing and Coordinate Padding
+693,Correct,N/A,0.4,Overly Verbose but Largely Correct
+694,Correct,N/A,0.9,Minor Redundancy and Repetition
+695,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+696,Correct,N/A,0.8,Overly Verbose but Largely Correct
+697,Correct,N/A,0.6,Speculative Guessing and Coordinate Padding
+698,Correct,N/A,0.7,Minor Redundancy and Repetition
+699,Correct,N/A,0.05,Speculative Guessing and Coordinate Padding
+700,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucinated or Incorrect Reasoning
+701,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Hallucinated or Incorrect Reasoning
+702,Correct,N/A,0.8,Minor Redundancy and Repetition
+703,Correct,N/A,0.5,Overly Verbose but Largely Correct
+704,Correct,N/A,0.7,Overly Verbose but Largely Correct
+705,Correct,N/A,0.9,Minor Redundancy and Repetition
+706,Correct,N/A,0.8,Minor Redundancy and Repetition
+707,Correct,N/A,0.8,Minor Redundancy and Repetition
+708,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+709,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Speculative Guessing and Coordinate Padding
+710,Correct,N/A,0.8,Minor Redundancy and Repetition
+711,Correct,N/A,0.9,Minor Redundancy and Repetition
+712,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+713,Correct,N/A,0.7,Minor Redundancy and Repetition
+714,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,"Refusal, Denial, or Non-Engagement"
+715,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+716,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+717,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Hallucinated or Incorrect Reasoning
+718,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.4,Irrelevant or Off-Task Discussion
+719,Correct,N/A,0.6,Minor Redundancy and Repetition
+720,Correct,N/A,0.3,Hallucinated or Incorrect Reasoning
+721,Correct,N/A,0.9,Minor Redundancy and Repetition
+722,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,"Refusal, Denial, or Non-Engagement"
+723,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucinated or Incorrect Reasoning
+724,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Overly Verbose but Largely Correct
+725,Correct,N/A,0.4,Hallucinated or Incorrect Reasoning
+726,Correct,N/A,0.9,Minor Redundancy and Repetition
+727,Correct,N/A,0.5,Overly Verbose but Largely Correct
+728,Correct,N/A,0.7,Overly Verbose but Largely Correct
+729,Visual Perception Failure,Object / Attribute Misrecognition,0.2,"Refusal, Denial, or Non-Engagement"
+730,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+731,Correct,N/A,0.7,Overly Verbose but Largely Correct
+732,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+733,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+734,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Speculative Guessing and Coordinate Padding
+735,Correct,N/A,0.6,Minor Redundancy and Repetition
+736,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+737,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+738,Correct,N/A,0.6,Overly Verbose but Largely Correct
+739,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+740,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Hallucinated or Incorrect Reasoning
+741,Correct,N/A,0.9,Minor Redundancy and Repetition
+742,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+743,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Overly Verbose but Largely Correct
+744,Correct,N/A,0.6,Overly Verbose but Largely Correct
+745,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+746,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+747,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+748,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.3,Overly Verbose but Largely Correct
+749,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.1,Hallucinated or Incorrect Reasoning
+750,Correct,N/A,0.9,Minor Redundancy and Repetition
+751,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,"Refusal, Denial, or Non-Engagement"
+752,Correct,N/A,0.9,Minor Redundancy and Repetition
+753,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+754,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+755,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+756,Correct,N/A,0.7,Overly Verbose but Largely Correct
+757,Correct,N/A,0.7,Overly Verbose but Largely Correct
+758,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant or Off-Task Discussion
+759,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+760,Correct,N/A,0.8,Overly Verbose but Largely Correct
+761,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Overly Verbose but Largely Correct
+762,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+763,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+764,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+765,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucinated or Incorrect Reasoning
+766,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant or Off-Task Discussion
+767,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+768,Correct,N/A,0.6,Irrelevant or Off-Task Discussion
+769,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+770,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.6,Hallucinated or Incorrect Reasoning
+771,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+772,Correct,N/A,0.9,Minor Redundancy and Repetition
+773,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Irrelevant or Off-Task Discussion
+774,Correct,N/A,1.0,None
+775,Correct,N/A,1.0,None
+776,Correct,N/A,0.25,Irrelevant or Off-Task Discussion
+777,Correct,N/A,0.6,Minor Redundancy and Repetition
+778,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+779,Correct,N/A,0.5,Irrelevant or Off-Task Discussion
+780,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+781,Correct,N/A,0.4,Minor Redundancy and Repetition
+782,Correct,N/A,0.4,Overly Verbose but Largely Correct
+783,Correct,N/A,0.3,Irrelevant or Off-Task Discussion
+784,Correct,N/A,0.4,Overly Verbose but Largely Correct
+785,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Hallucinated or Incorrect Reasoning
+786,Correct,N/A,0.6,Overly Verbose but Largely Correct
+787,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Hallucinated or Incorrect Reasoning
+788,Visual Perception Failure,Action / Event Misperception,0.4,Hallucinated or Incorrect Reasoning
+789,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.15,Irrelevant or Off-Task Discussion
+790,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+791,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+792,Correct,N/A,0.8,Minor Redundancy and Repetition
+793,Correct,N/A,0.6,Overly Verbose but Largely Correct
+794,Correct,N/A,0.6,Overly Verbose but Largely Correct
+795,Correct,N/A,0.7,Overly Verbose but Largely Correct
+796,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+797,Correct,N/A,0.7,Overly Verbose but Largely Correct
+798,Correct,N/A,0.6,Overly Verbose but Largely Correct
+799,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Hallucinated or Incorrect Reasoning
+800,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+801,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.6,Hallucinated or Incorrect Reasoning
+802,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucinated or Incorrect Reasoning
+803,Correct,N/A,0.7,Speculative Guessing and Coordinate Padding
+804,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.4,Overly Verbose but Largely Correct
+805,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Irrelevant or Off-Task Discussion
+806,Correct,N/A,0.7,Overly Verbose but Largely Correct
+807,Correct,N/A,0.5,Overly Verbose but Largely Correct
+808,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.25,Overly Verbose but Largely Correct
+809,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Irrelevant or Off-Task Discussion
+810,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+811,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Irrelevant or Off-Task Discussion
+812,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Hallucinated or Incorrect Reasoning
+813,Correct,N/A,0.7,Minor Redundancy and Repetition
+814,Correct,N/A,0.5,Overly Verbose but Largely Correct
+815,Correct,N/A,0.5,Overly Verbose but Largely Correct
+816,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+817,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+818,Correct,N/A,0.6,Overly Verbose but Largely Correct
+819,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+820,Visual Perception Failure,Action / Event Misperception,0.2,Irrelevant or Off-Task Discussion
+821,Correct,N/A,0.7,Overly Verbose but Largely Correct
+822,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+823,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Speculative Guessing and Coordinate Padding
+824,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Overly Verbose but Largely Correct
+825,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Overly Verbose but Largely Correct
+826,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Speculative Guessing and Coordinate Padding
+827,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant or Off-Task Discussion
+828,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+829,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+830,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+831,Visual Perception Failure,Object / Attribute Misrecognition,0.2,"Refusal, Denial, or Non-Engagement"
+832,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+833,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+834,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.2,Hallucinated or Incorrect Reasoning
+835,Visual Perception Failure,Object / Attribute Misrecognition,0.1,"Refusal, Denial, or Non-Engagement"
+836,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+837,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+838,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+839,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+840,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+841,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+842,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Overly Verbose but Largely Correct
+843,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+844,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Overly Verbose but Largely Correct
+845,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,"Refusal, Denial, or Non-Engagement"
+846,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Hallucinated or Incorrect Reasoning
+847,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+848,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+849,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+850,Visual Perception Failure,Object / Attribute Misrecognition,0.2,"Refusal, Denial, or Non-Engagement"
+851,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+852,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+853,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+854,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+855,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+856,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Speculative Guessing and Coordinate Padding
+857,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+858,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+859,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+860,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Overly Verbose but Largely Correct
+861,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+862,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+863,Visual Perception Failure,Object / Attribute Misrecognition,0.2,"Refusal, Denial, or Non-Engagement"
+864,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+865,Reasoning or Hallucination Failure,Role / Intent / Relationship Misinterpretation,0.2,Speculative Guessing and Coordinate Padding
+866,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+867,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+868,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+869,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+870,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Speculative Guessing and Coordinate Padding
+871,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Speculative Guessing and Coordinate Padding
+872,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Overly Verbose but Largely Correct
+873,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Overly Verbose but Largely Correct
+874,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+875,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+876,Visual Perception Failure,Action / Event Misperception,0.3,Speculative Guessing and Coordinate Padding
+877,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+878,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Overly Verbose but Largely Correct
+879,Visual Perception Failure,Object / Attribute Misrecognition,0.25,Speculative Guessing and Coordinate Padding
+880,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+881,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+882,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Hallucinated or Incorrect Reasoning
+883,Visual Perception Failure,Object Presence / State Tracking Error,0.2,"Refusal, Denial, or Non-Engagement"
+884,Visual Perception Failure,Action / Event Misperception,0.2,Speculative Guessing and Coordinate Padding
+885,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+886,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Speculative Guessing and Coordinate Padding
+887,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+888,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+889,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+890,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Speculative Guessing and Coordinate Padding
+891,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.15,Speculative Guessing and Coordinate Padding
+892,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+893,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+894,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+895,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Speculative Guessing and Coordinate Padding
+896,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Speculative Guessing and Coordinate Padding
+897,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Speculative Guessing and Coordinate Padding
+898,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+899,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Hallucinated or Incorrect Reasoning
+900,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+901,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Speculative Guessing and Coordinate Padding
+902,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+903,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+904,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant or Off-Task Discussion
+905,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant or Off-Task Discussion
+906,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+907,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Irrelevant or Off-Task Discussion
+908,Visual Perception Failure,Object Presence / State Tracking Error,0.2,Hallucinated or Incorrect Reasoning
+909,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+910,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+911,Visual Perception Failure,Object / Attribute Misrecognition,0.25,Speculative Guessing and Coordinate Padding
+912,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+913,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+914,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Hallucinated or Incorrect Reasoning
+915,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+916,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+917,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+918,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+919,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+920,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+921,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+922,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+923,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+924,Visual Perception Failure,Object Presence / State Tracking Error,0.3,Minor Redundancy and Repetition
+925,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+926,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+927,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Minor Redundancy and Repetition
+928,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+929,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Minor Redundancy and Repetition
+930,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+931,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant or Off-Task Discussion
+932,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+933,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+934,Visual Perception Failure,Object / Attribute Misrecognition,0.25,Speculative Guessing and Coordinate Padding
+935,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant or Off-Task Discussion
+936,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+937,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+938,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Irrelevant or Off-Task Discussion
+939,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.2,Speculative Guessing and Coordinate Padding
+940,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Minor Redundancy and Repetition
+941,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Minor Redundancy and Repetition
+942,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Overly Verbose but Largely Correct
+943,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+944,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+945,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+946,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Hallucinated or Incorrect Reasoning
+947,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.4,Overly Verbose but Largely Correct
+948,Visual Perception Failure,Object / Attribute Misrecognition,0.1,"Refusal, Denial, or Non-Engagement"
+949,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+950,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+951,Visual Perception Failure,Object / Attribute Misrecognition,0.4,Overly Verbose but Largely Correct
+952,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+953,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+954,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+955,Visual Perception Failure,Spatial / Temporal Relation Misperception,0.3,Speculative Guessing and Coordinate Padding
+956,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,"Refusal, Denial, or Non-Engagement"
+957,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Speculative Guessing and Coordinate Padding
+958,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,"Refusal, Denial, or Non-Engagement"
+959,Visual Perception Failure,Object / Attribute Misrecognition,0.3,Irrelevant or Off-Task Discussion
+960,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Irrelevant or Off-Task Discussion
+961,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+962,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Irrelevant or Off-Task Discussion
+963,Visual Perception Failure,Object / Attribute Misrecognition,0.2,Speculative Guessing and Coordinate Padding
+964,Visual Perception Failure,Action / Event Misperception,0.3,Hallucinated or Incorrect Reasoning
+965,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+966,Correct,N/A,0.6,Minor Redundancy and Repetition
+967,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+968,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Overly Verbose but Largely Correct
+969,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Overly Verbose but Largely Correct
+970,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.05,"Refusal, Denial, or Non-Engagement"
+971,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+972,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.05,"Refusal, Denial, or Non-Engagement"
+973,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+974,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Overly Verbose but Largely Correct
+975,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+976,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,"Refusal, Denial, or Non-Engagement"
+977,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+978,Visual Perception Failure,Action / Event Misperception,0.3,"Refusal, Denial, or Non-Engagement"
+979,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+980,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+981,Correct,N/A,0.9,Minor Redundancy and Repetition
+982,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+983,Correct,N/A,0.02,Overly Verbose but Largely Correct
+984,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant or Off-Task Discussion
+985,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.2,Hallucinated or Incorrect Reasoning
+986,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+987,Visual Perception Failure,Object Presence / State Tracking Error,0.6,Minor Redundancy and Repetition
+988,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.3,Overly Verbose but Largely Correct
+989,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant or Off-Task Discussion
+990,Reasoning or Hallucination Failure,Hallucinated Narrative or Details,0.1,Hallucinated or Incorrect Reasoning
+991,Correct,N/A,0.7,Minor Redundancy and Repetition
+992,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+993,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Hallucinated or Incorrect Reasoning
+994,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+995,Correct,N/A,0.6,Overly Verbose but Largely Correct
+996,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+997,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Hallucinated or Incorrect Reasoning
+998,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+999,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+1000,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Hallucinated or Incorrect Reasoning
+1001,Correct,N/A,0.7,Minor Redundancy and Repetition
+1002,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.4,Overly Verbose but Largely Correct
+1003,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,"Refusal, Denial, or Non-Engagement"
+1004,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+1005,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+1006,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.3,Overly Verbose but Largely Correct
+1007,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.6,Overly Verbose but Largely Correct
+1008,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.7,Overly Verbose but Largely Correct
+1009,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.5,Minor Redundancy and Repetition
+1010,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.4,Speculative Guessing and Coordinate Padding
+1011,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,"Refusal, Denial, or Non-Engagement"
+1012,Visual Perception Failure,Text / Symbol / Fine-detail Misreading,0.2,Hallucinated or Incorrect Reasoning
+1013,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,"Refusal, Denial, or Non-Engagement"
+1014,Visual Perception Failure,Action / Event Misperception,0.4,Minor Redundancy and Repetition
+1015,Visual Perception Failure,Action / Event Misperception,0.1,Hallucinated or Incorrect Reasoning
+1016,Visual Perception Failure,Action / Event Misperception,0.2,Hallucinated or Incorrect Reasoning
+1017,Visual Perception Failure,Action / Event Misperception,0.8,Hallucinated or Incorrect Reasoning
+1018,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Minor Redundancy and Repetition
+1019,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+1020,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Overly Verbose but Largely Correct
+1021,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,"Refusal, Denial, or Non-Engagement"
+1022,Correct,N/A,0.7,Minor Redundancy and Repetition
+1023,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.8,Overly Verbose but Largely Correct
+1024,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.4,Hallucinated or Incorrect Reasoning
+1025,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.3,Irrelevant or Off-Task Discussion
+1026,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+1027,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.1,Irrelevant or Off-Task Discussion
+1028,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Irrelevant or Off-Task Discussion
+1029,Reasoning or Hallucination Failure,Counterfactual or Instruction-Ignoring Reasoning,0.2,Speculative Guessing and Coordinate Padding
+1030,Reasoning or Hallucination Failure,Causal / Temporal Logic Error,0.7,Hallucinated or Incorrect Reasoning
+1031,Correct,N/A,0.7,Minor Redundancy and Repetition
+1032,Visual Perception Failure,Action / Event Misperception,0.2,"Refusal, Denial, or Non-Engagement"
+1033,Reasoning or Hallucination Failure,Counting / Aggregation Reasoning Error,0.9,Hallucinated or Incorrect Reasoning

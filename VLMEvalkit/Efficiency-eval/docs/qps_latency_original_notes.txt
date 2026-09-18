@@ -1,0 +1,50 @@
+我需要将一个Qwen3-VL-7B模型用 VLLM 在线部署，可以参考下面的脚本（我会提供ckpt地址）
+
+nohup vllm serve ./Qwen3-VL-235B-A22B-Instruct/ \
+  --tensor-parallel-size 8 \
+  --max-model-len 128000 \
+  --limit-mm-per-prompt.video 0 \
+  --max_num_seqs 50 \
+  --mm-processor-cache-gb 500 \
+  --async-scheduling > ./vllm_server.log 2>&1 &
+
+推理的config如下：
+    "Qwen3-VL-8B-Instruct": partial(
+        Qwen3VLChat,
+        model_path="Qwen/Qwen3-VL-8B-Instruct",
+        use_custom_prompt=True,
+        use_vllm=True,
+        temperature=0.7, 
+        max_new_tokens=16384,
+        repetition_penalty=1.0,
+        presence_penalty=1.5,
+        top_p=0.8,
+        top_k=20
+    ),
+
+同时写一份代码向 vllm server 发送requset，计算 MathVista_MINI,MathVision,MathVerse_MINI,LogicVista 的样本数量，总评测时间，每个样本平均评测时间（dataset各自的指标以及四个dataset合并后的指标）
+可以参考本仓库 `vlmeval/dataset/image_vqa.py` 中对应dataset的类完成评测代码。
+
+评测指标额外增加一个平均输出长度（同样需要dataset各自的指标以及四个dataset合并后的指标）
+
+prompt 参考本仓库 `vlmeval/vlm/qwen3_vl/prompt.py`，分为四类：Short-COT-Image，Short-COT-Video，Directly-Answer，Custom-Prompt(使用dataset自带的prompt)
+
+export MODEL_TYPE="directly-answer"
+python Efficiency-eval/legacy/eval_vllm_qwen3vl_full_legacy.py \
+--setting sequential \
+--model Qwen3-VL-8B-Instruct \
+--datasets MathVista_MINI MathVision MathVerse_MINI LogicVista \
+--prompt-type directly-answer \
+--vllm-url http://localhost:8000 \
+--output-dir ./results  
+
+python Efficiency-eval/legacy/eval_vllm_qwen3vl_prompt_legacy.py \
+--model Qwen3-VL-8B-Instruct \
+--datasets MathVista_MINI MathVision MathVerse_MINI LogicVista \
+--prompt-type directly-answer \
+--vllm-url http://localhost:8000 \
+--output-dir ./results  
+
+修改 `Efficiency-eval/legacy/eval_vllm_qwen3vl_prompt_legacy.py`, 增加评测的 setting：串型和并行。串型表示上一个问题的输出得到后再发下一个问题；并行表示并行发送32个问题，将模型利用率打满,将代码保存到 `Efficiency-eval/legacy/eval_vllm_qwen3vl_full_legacy.py`。
+
+`Efficiency-eval/legacy/eval_vllm_qwen3vl_full_legacy.py` 报错了，'DatasetEvaluator' object has no attribute '_get_image_path'。可以参考 `Efficiency-eval/legacy/eval_vllm_qwen3vl_prompt_legacy.py` 的内容进行补全

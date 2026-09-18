@@ -1,0 +1,119 @@
+# Portable recipe using the bundled verl configuration schema.
+# Run with DRT_REPO_ROOT set to the absolute checkout directory.
+defaults:
+  - /ppo_megatron_trainer_dense_cot_qwen3vl_process_reward_qwen_gpt_step_bonus_visionr1_dapo
+  - _self_
+
+hydra:
+  searchpath:
+    - file://${oc.env:DRT_REPO_ROOT}/Verl/verl/trainer/config
+
+data:
+  train_files: ${oc.env:DRT_DATA_DIR}/train.parquet
+  val_files: ${oc.env:DRT_DATA_DIR}/test.parquet
+  train_batch_size: 512
+  max_prompt_length: 2048
+  max_response_length: 2048
+  filter_overlong_prompts: true
+  truncation: error
+
+algorithm:
+  adv_estimator: grpo
+  use_kl_in_reward: false
+
+actor_rollout_ref:
+  model:
+    path: ${oc.env:DRT_SFT_MODEL,leaderonehit/DRT-SFT-8B}
+  actor:
+    optim:
+      lr: 1.0e-6
+      override_optimizer_config:
+        optimizer_offload_fraction: 1
+        overlap_cpu_optimizer_d2h_h2d: true
+        use_precision_aware_optimizer: true
+        optimizer_cpu_offload: true
+    ppo_mini_batch_size: 128
+    ppo_micro_batch_size_per_gpu: 1
+    ppo_max_token_len_per_gpu: 4096
+    use_dynamic_bsz: true
+    use_kl_loss: true
+    kl_loss_coef: 0.01
+    kl_loss_type: low_var_kl
+    entropy_coeff: 0
+    megatron:
+      tensor_model_parallel_size: 2
+      pipeline_model_parallel_size: 2
+      context_parallel_size: 1
+      use_mbridge: true
+      param_offload: true
+      optimizer_offload: true
+      grad_offload: true
+      override_transformer_config:
+        recompute_method: uniform
+        recompute_granularity: full
+        recompute_num_layers: 1
+        gradient_accumulation_fusion: true
+        moe_router_dtype: fp32
+        moe_enable_deepep: true
+        moe_token_dispatcher_type: flex
+        moe_permute_fusion: true
+  ref:
+    log_prob_micro_batch_size_per_gpu: 1
+    log_prob_use_dynamic_bsz: true
+    log_prob_max_token_len_per_gpu: 4096
+    megatron:
+      param_offload: true
+  rollout:
+    name: vllm
+    tensor_model_parallel_size: 4
+    gpu_memory_utilization: 0.7
+    n: 16
+    temperature: 1.0
+    top_p: 1.0
+    top_k: -1
+    log_prob_micro_batch_size_per_gpu: 1
+    log_prob_use_dynamic_bsz: true
+    log_prob_max_token_len_per_gpu: 4096
+    engine_kwargs:
+      vllm:
+        disable_mm_preprocessor_cache: true
+
+reward:
+  custom_reward_function:
+    path: ${oc.env:DRT_REPO_ROOT}/Verl/verl/utils/reward_score/short_cot_qwen.py
+    name: compute_score_qwen_gpt_step_bonus
+  reward_manager:
+    name: dapo
+  reward_model:
+    enable: true
+    enable_resource_pool: true
+    n_gpus_per_node: 8
+    nnodes: 1
+    model_path: ${oc.env:DRT_REWARD_MODEL,Qwen/Qwen3-235B-A22B-Instruct-2507}
+    rollout:
+      name: vllm
+      tensor_model_parallel_size: 8
+      gpu_memory_utilization: 0.90
+      enforce_eager: false
+      free_cache_engine: false
+      prompt_length: 12000
+      response_length: 512
+      max_model_len: 12800
+      max_num_seqs: 16
+      max_num_batched_tokens: 65536
+
+trainer:
+  project_name: DRT
+  experiment_name: drt-rl-visionr1-dapo
+  logger: [console]
+  default_local_dir: ${oc.env:DRT_OUTPUT_DIR,./checkpoints/drt-rl}
+  default_hdfs_dir: null
+  resume_mode: disable
+  n_gpus_per_node: 8
+  nnodes: 1
+  critic_warmup: 0
+  save_freq: 10
+  test_freq: 20000
+  total_epochs: 100
+  auto_eval:
+    enabled: false

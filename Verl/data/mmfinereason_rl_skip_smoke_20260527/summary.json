@@ -1,0 +1,16 @@
+{
+  "accepted": 8,
+  "rejected": 3,
+  "reject_reasons": [
+    [
+      "trivial_caption_or_recognition_qa",
+      2
+    ],
+    [
+      "empty_answer",
+      1
+    ]
+  ],
+  "accepted_path": "data/mmfinereason_rl_skip_smoke_20260527/rl.parquet",
+  "reject_path": "data/mmfinereason_rl_skip_smoke_20260527/rl.rejected.jsonl"
+}

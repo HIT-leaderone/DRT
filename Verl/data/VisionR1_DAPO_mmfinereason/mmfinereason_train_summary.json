@@ -1,0 +1,36 @@
+{
+  "output": "data/VisionR1_DAPO_mmfinereason/mmfinereason_train.parquet",
+  "rows": 32362,
+  "parts": 324,
+  "schema_equals_reference": true,
+  "bad_gt": 0,
+  "empty_images": 0,
+  "empty_answer": 0,
+  "empty_problem": 0,
+  "data_source_hist": {
+    "mmfinereason": 32362
+  },
+  "ability_hist": {
+    "visual_math": 32362
+  },
+  "image_hist": {
+    "1": 32362
+  },
+  "gt_step_hist": {
+    "2": 2,
+    "3": 1267,
+    "4": 6329,
+    "5": 10722,
+    "6": 7948,
+    "7": 4098,
+    "8": 1729,
+    "9": 253,
+    "10": 14
+  },
+  "gt_step_p50_p75_p90_p95": {
+    "p50": 5,
+    "p75": 6,
+    "p90": 7,
+    "p95": 8
+  }
+}

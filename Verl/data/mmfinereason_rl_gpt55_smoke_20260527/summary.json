@@ -1,0 +1,12 @@
+{
+  "accepted": 3,
+  "rejected": 1,
+  "reject_reasons": [
+    [
+      "trivial_caption_or_recognition_qa",
+      1
+    ]
+  ],
+  "accepted_path": "data/mmfinereason_rl_gpt55_smoke_20260527/rl.parquet",
+  "reject_path": "data/mmfinereason_rl_gpt55_smoke_20260527/rl.rejected.jsonl"
+}

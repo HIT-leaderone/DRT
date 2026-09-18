@@ -1,0 +1,10 @@
+{
+  "accepted": 1,
+  "rejected": 0,
+  "completed_this_run": 1,
+  "scanned": 2,
+  "parts_dir": "data/mmfinereason_rl_checkpoint_gpt55_smoke_20260527/rl.parquet.parts",
+  "reject_path": "data/mmfinereason_rl_checkpoint_gpt55_smoke_20260527/rl.rejected.jsonl",
+  "reject_reasons": [],
+  "running": false
+}

@@ -1,0 +1,35 @@
+{
+  "model": {
+    "DRT-SFT-8B": {
+      "class": "Qwen3VLChat",
+      "model_path": "leaderonehit/DRT-SFT-8B",
+      "use_custom_prompt": true,
+      "use_vllm": true,
+      "temperature": 0.7,
+      "max_new_tokens": 16384,
+      "repetition_penalty": 1.0,
+      "presence_penalty": 1.5,
+      "top_p": 0.8,
+      "top_k": 20
+    },
+    "DRT-RL-8B": {
+      "class": "Qwen3VLChat",
+      "model_path": "leaderonehit/DRT-RL-8B",
+      "use_custom_prompt": true,
+      "use_vllm": true,
+      "temperature": 0.7,
+      "max_new_tokens": 16384,
+      "repetition_penalty": 1.0,
+      "presence_penalty": 1.5,
+      "top_p": 0.8,
+      "top_k": 20
+    }
+  },
+  "data": {
+    "MathVista_MINI": {"class": "MathVista", "dataset": "MathVista_MINI"},
+    "MathVerse_MINI": {"class": "MathVerse", "dataset": "MathVerse_MINI"},
+    "LogicVista": {"class": "LogicVista", "dataset": "LogicVista"},
+    "GSM8K": {"class": "MathReasoningDataset", "dataset": "GSM8K"},
+    "Video_Holmes": {"class": "Video_Holmes", "dataset": "Video_Holmes", "nframe": 32, "fps": -1}
+  }
+}

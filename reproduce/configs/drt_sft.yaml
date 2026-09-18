@@ -1,0 +1,26 @@
+# Recorded SFT settings, not a directly executable verl/Hydra config.
+# The original SFT training entrypoint is not bundled in this repository.
+framework: ms-swift-megatron
+base_model: Qwen/Qwen3-VL-8B-Instruct
+dataset: leaderonehit/DRT-SFT-8B-training-data
+published_model: leaderonehit/DRT-SFT-8B
+selected_checkpoint_iteration: 800
+configured_training_iterations: 2000
+training:
+  train_type: full
+  dtype: bfloat16
+  freeze_llm: false
+  freeze_vit: true
+  freeze_aligner: false
+  learning_rate: 6.0e-6
+  min_learning_rate: 1.0e-6
+  lr_schedule: cosine
+  weight_decay: 0.0
+  global_batch_size: 32
+  micro_batch_size: 1
+  max_sequence_length: 16384
+parallelism:
+  tensor: 8
+  pipeline: 1
+  context: 4
+  sequence_parallel: false

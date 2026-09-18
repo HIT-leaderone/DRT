@@ -1,0 +1,93 @@
+{
+  "name": "DRT RL training data",
+  "total_size_bytes": 1675660559,
+  "total_size_human": "1.6 GiB",
+  "files": [
+    {
+      "path": "train.parquet",
+      "size_bytes": 491270387,
+      "rows": 14724,
+      "columns": [
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info",
+        "images"
+      ],
+      "sha256": "d74bd458e56f52043c2ddbac4dd512a2527e501c364119f6f0e4d01fe842b129"
+    },
+    {
+      "path": "test.parquet",
+      "size_bytes": 26499711,
+      "rows": 618,
+      "columns": [
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info",
+        "images"
+      ],
+      "sha256": "05ff064f4b6b577afccb67ed746df2faade8cd9ef2a8e649c2b247aedc1f1fed"
+    },
+    {
+      "path": "mmfinereason_train.parquet",
+      "size_bytes": 1157889880,
+      "rows": 32362,
+      "columns": [
+        "data_source",
+        "prompt",
+        "ability",
+        "reward_model",
+        "extra_info",
+        "images"
+      ],
+      "summary": {
+        "parts": 324,
+        "schema_equals_reference": true,
+        "bad_gt": 0,
+        "empty_images": 0,
+        "empty_answer": 0,
+        "empty_problem": 0,
+        "data_source_hist": {
+          "mmfinereason": 32362
+        },
+        "ability_hist": {
+          "visual_math": 32362
+        },
+        "image_hist": {
+          "1": 32362
+        },
+        "gt_step_hist": {
+          "2": 2,
+          "3": 1267,
+          "4": 6329,
+          "5": 10722,
+          "6": 7948,
+          "7": 4098,
+          "8": 1729,
+          "9": 253,
+          "10": 14
+        },
+        "gt_step_p50_p75_p90_p95": {
+          "p50": 5,
+          "p75": 6,
+          "p90": 7,
+          "p95": 8
+        }
+      },
+      "sha256": "8b2911a6de2c0556119592c18b0b0292d054da4d561bcb5f916963b7126d0b81"
+    },
+    {
+      "path": "mmfinereason_train_summary.json",
+      "size_bytes": 581,
+      "rows": null,
+      "columns": [],
+      "sha256": "da797b73965929418d74e7bffc7da97eb04a819b6ce36cd3b857d4202d2cf60b"
+    }
+  ],
+  "huggingface_repo_id": "leaderonehit/DRT-RL-8B-training-data",
+  "huggingface_revision": "c29937590e325a2f1525b0023806e3d53fa4a8cd",
+  "huggingface_url": "https://huggingface.co/datasets/leaderonehit/DRT-RL-8B-training-data"
+}
